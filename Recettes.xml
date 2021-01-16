@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE Recettes SYSTEM "Recettes.dtd" [
-        <!ENTITY Ingredients SYSTEM "Ingredients.xml">,
-        <!ENTITY Auteurs SYSTEM "Auteurs.xml">
-        ]>
+<!DOCTYPE Recettes SYSTEM "Recettes.dtd">
 <Recettes>
     <Recette nom="Boeuf Wellington" difficulte="Très facile">
         <Titre>Bœuf Wellington</Titre>
@@ -23,7 +20,7 @@
         <NbPersonnes>8</NbPersonnes>
         <TempsPreparation unite="minutes">20</TempsPreparation>
         <TempsCuisson unite="minutes">50</TempsCuisson>
-        <TempsRepos unites="minutes">0</TempsRepos>
+        <TempsRepos unite="minutes">0</TempsRepos>
         <Description>
             <Etape id="1">Faites chauffer l’huile dans une poêle. Salez le filet de bœuf et faites-le revenir sur toutes ses faces. Réservez.</Etape>
             <Etape id="2">Pelez et ciselez finement l’oignon. Lavez les champignons et coupez-les en petits dés.</Etape>

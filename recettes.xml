@@ -7,8 +7,60 @@
         <DatePublication>12/09/2020</DatePublication>
         <Diffuclte>Très Facile</Diffuclte>
         <Ingredients>
-            <Ingredient quantite="1kg">Filet de boeuf</Ingredient>
-            <Boeuf partie="filet">1kg</Boeuf>
+            <Ingredient>
+                <Nom>Filet de boeuf</Nom>
+                <ApportNutritif>3240 cal</ApportNutritif>
+                <Saison>Toute l'année</Saison>
+                <Descriptif>Le filet de bœuf est un morceau tendre et maigre du bœuf. Il est situé dans la région lombaire.</Descriptif>
+            </Ingredient>
+            <Ingredient>
+                <Nom>Pâte feuilletée</Nom>
+                <ApportNutritif>558 cal</ApportNutritif>
+                <Saison>Toutes l'année</Saison>
+                <Descriptif>La pâte feuilletée, également connue sous le nom de pâte feuilletée, est une pâte feuilletée légère fabriquée à partir d'une pâte feuilletée composée de pâte et de beurre ou d'une autre matière grasse solide.</Descriptif>
+            </Ingredient>
+            <Ingredient>
+                <Nom>Oignon</Nom>
+                <ApportNutritif>40 cal</ApportNutritif>
+                <Saison>Aout-Septembre</Saison>
+                <Descriptif>L’oignon est un légume à bulbe, généralement à chair blanche.</Descriptif>
+            </Ingredient>
+            <Ingredient>
+                <Nom>Champignons de paris</Nom>
+                <ApportNutritif>22 cal</ApportNutritif>
+                <Saison>Septembre-Juin</Saison>
+                <Descriptif></Descriptif>
+            </Ingredient>
+            <Ingredient>
+                <Nom>Branche de thym frais</Nom>
+                <ApportNutritif></ApportNutritif>
+                <Saison></Saison>
+                <Descriptif></Descriptif>
+            </Ingredient>
+            <Ingredient>
+                <Nom>Vin rouge</Nom>
+                <ApportNutritif></ApportNutritif>
+                <Saison></Saison>
+                <Descriptif></Descriptif>
+            </Ingredient>
+            <Ingredient>
+                <Nom>Filet d'huile d'olive</Nom>
+                <ApportNutritif></ApportNutritif>
+                <Saison></Saison>
+                <Descriptif></Descriptif>
+            </Ingredient>
+            <Ingredient>
+                <Nom>Jaune d’œuf</Nom>
+                <ApportNutritif></ApportNutritif>
+                <Saison></Saison>
+                <Descriptif></Descriptif>
+            </Ingredient>
+            <Ingredient>
+                <Nom>Sel</Nom>
+                <ApportNutritif></ApportNutritif>
+                <Saison></Saison>
+                <Descriptif></Descriptif>
+            </Ingredient>
         </Ingredients>
         <NbPersonnes>8</NbPersonnes>
         <TempsPreparation unite="minutes">20</TempsPreparation>

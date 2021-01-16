@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Auteurs>
+    <Auteur nom="Tombini">
+        <Nom>Marie-Laure Tombini</Nom>
+        <Age>53</Age>
+        <Pays>France</Pays>
+        <Sexe>Femme</Sexe>
+        <Biographie>Auteur et photographe culinaire professionnelle depuis 14 ans, Marie-Laure Tombini a créé en 2002 le site Ôdélices pour partager ses recettes et idées avec vous. Rédactrice en chef des magazines Odelices et Esprit Veggie, elle propose des recettes gourmandes et savoureuses, avec une tendance healthy.</Biographie>
+    </Auteur>
+</Auteurs>

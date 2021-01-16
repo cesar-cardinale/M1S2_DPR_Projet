@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE Recettes SYSTEM "Recettes.dtd" [
-        <!ENTITY Ingredients SYSTEM "Ingredients.xml">
+        <!ENTITY Ingredients SYSTEM "Ingredients.xml">,
+        <!ENTITY Auteurs SYSTEM "Auteurs.xml">
         ]>
 <Recettes>
     <Recette nom="boeufWellington">
@@ -8,7 +9,7 @@
         <Resume>Avez-vous déjà dégusté un bœuf wellington ? Sa cuisson en pâte feuilletée préserve sa saveur pour un résultat délicieux. Une belle spécialité anglaise.</Resume>
         <Photo>https://odelices.ouest-france.fr/images/recettes/boeuf_wellington.jpg</Photo>
         <DatePublication>12/09/2020</DatePublication>
-        <Diffuclte>Très Facile</Diffuclte>
+        <Difficulte>Très Facile</Difficulte>
         <ListeIngredients>
             <Ingredient nom="Filet de boeuf" quantite="1kg" />
             <Ingredient nom="Pâte feuilletée" quantite="1" />
@@ -34,5 +35,8 @@
             <Etape id="7">Faites cuire 10 min dans le four préchauffé à 240°C puis baissez le four à 180°C et prolongez la cuisson 20 min.</Etape>
         </Description>
         <Note>4</Note>
+        <ListeAuteurs>
+            <Auteur nom="Tombini" />
+        </ListeAuteurs>
     </Recette>
 </Recettes>

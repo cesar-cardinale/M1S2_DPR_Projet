@@ -1,0 +1,8 @@
+<!ELEMENT Ingredients (Ingredient*)>
+<!ELEMENT Ingredient (Nom,ApportNutritif,Saison,Descriptif)>
+<!ELEMENT Nom (#PCDATA)>
+<!ELEMENT ApportNutritif (#PCDATA)>
+<!ELEMENT Saison (#PCDATA)>
+<!ELEMENT Descriptif (#PCDATA)>
+
+<!ATTLIST Ingredient nom CDATA>

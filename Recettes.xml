@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Recettes SYSTEM "Recettes.dtd" [
+        <!ENTITY Ingredients SYSTEM "Ingredients.xml">
+        ]>
+<Recettes>
+    <Recette nom="boeufWellington">
+        <Titre>Bœuf Wellington</Titre>
+        <Resume>Avez-vous déjà dégusté un bœuf wellington ? Sa cuisson en pâte feuilletée préserve sa saveur pour un résultat délicieux. Une belle spécialité anglaise.</Resume>
+        <Photo>https://odelices.ouest-france.fr/images/recettes/boeuf_wellington.jpg</Photo>
+        <DatePublication>12/09/2020</DatePublication>
+        <Diffuclte>Très Facile</Diffuclte>
+        <ListeIngredients>
+            <Ingredient nom="Filet de boeuf" quantite="1kg" />
+            <Ingredient nom="Pâte feuilletée" quantite="1" />
+            <Ingredient nom="Oignon" quantite="1" />
+            <Ingredient nom="Champignons de paris" quantite="400g" />
+            <Ingredient nom="Thym frais" quantite="1" />
+            <Ingredient nom="Vin rouge" quantite="10cl" />
+            <Ingredient nom="Huile d'olive" quantite="1" />
+            <Ingredient nom="Jaune d'œuf" quantite="1" />
+            <Ingredient nom="Sel" quantite="1" />
+        </ListeIngredients>
+        <NbPersonnes>8</NbPersonnes>
+        <TempsPreparation unite="minutes">20</TempsPreparation>
+        <TempsCuisson unite="minutes">50</TempsCuisson>
+        <TempsRepos unites="minutes">0</TempsRepos>
+        <Description>
+            <Etape id="1">Faites chauffer l’huile dans une poêle. Salez le filet de bœuf et faites-le revenir sur toutes ses faces. Réservez.</Etape>
+            <Etape id="2">Pelez et ciselez finement l’oignon. Lavez les champignons et coupez-les en petits dés.</Etape>
+            <Etape id="3">Faites revenir les légumes 10 min dans une poêle avec un filet d’huile d’olive. Ajoutez le thym et le vin rouge. Laissez cuire 10 min pour faire réduire le jus. Salez.</Etape>
+            <Etape id="4">Étalez la pâte feuilletée en un rectangle. Répartissez les champignons en laissant un bord sans garniture. Déposez le filet de bœuf et refermez la pâte feuilletée pour bien enfermer la viande.</Etape>
+            <Etape id="5">Retournez le rôti et posez-le dans un plat allant au four.</Etape>
+            <Etape id="6">Dorez la pâte avec un jaune d’œuf dilué avec une cuillerée à café d’eau. Faites 3 petites cheminées dans la pâte pour laisser la vapeur sortir pendant la cuisson.</Etape>
+            <Etape id="7">Faites cuire 10 min dans le four préchauffé à 240°C puis baissez le four à 180°C et prolongez la cuisson 20 min.</Etape>
+        </Description>
+        <Note>4</Note>
+    </Recette>
+</Recettes>

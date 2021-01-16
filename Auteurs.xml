@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Auteurs SYSTEM "Auteurs.dtd">
 <Auteurs>
     <Auteur nom="Tombini">
         <Nom>Marie-Laure Tombini</Nom>

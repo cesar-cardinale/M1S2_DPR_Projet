@@ -1,12 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
 <Recettes>
-    <Recette id="1">
+    <Recette nom="boeufWellington">
         <Titre>Bœuf Wellington</Titre>
         <Resume>Avez-vous déjà dégusté un bœuf wellington ? Sa cuisson en pâte feuilletée préserve sa saveur pour un résultat délicieux. Une belle spécialité anglaise.</Resume>
         <Photo>https://odelices.ouest-france.fr/images/recettes/boeuf_wellington.jpg</Photo>
         <DatePublication>12/09/2020</DatePublication>
         <Diffuclte>Très Facile</Diffuclte>
-        <Ingredients>
-        </Ingredients>
+        <ListeIngredients>
+            <Ingredient nom="Filet de boeuf" quantite="1kg" />
+        </ListeIngredients>
         <NbPersonnes>8</NbPersonnes>
         <TempsPreparation unite="minutes">20</TempsPreparation>
         <TempsCuisson unite="minutes">50</TempsCuisson>
@@ -22,62 +24,63 @@
         </Description>
         <Note>4</Note>
     </Recette>
+
+
+
+    <Ingredients>
+        <Ingredient nom="Filet de boeuf">
+            <Nom>Filet de boeuf</Nom>
+            <ApportNutritif>3240 cal</ApportNutritif>
+            <Saison>Toute l'année</Saison>
+            <Descriptif>Le filet de bœuf est un morceau tendre et maigre du bœuf. Il est situé dans la région lombaire.</Descriptif>
+        </Ingredient>
+        <Ingredient>
+            <Nom>Pâte feuilletée</Nom>
+            <ApportNutritif>558 cal</ApportNutritif>
+            <Saison>Toutes l'année</Saison>
+            <Descriptif>La pâte feuilletée, également connue sous le nom de pâte feuilletée, est une pâte feuilletée légère fabriquée à partir d'une pâte feuilletée composée de pâte et de beurre ou d'une autre matière grasse solide.</Descriptif>
+        </Ingredient>
+        <Ingredient>
+            <Nom>Oignon</Nom>
+            <ApportNutritif>40 cal</ApportNutritif>
+            <Saison>Aout-Septembre</Saison>
+            <Descriptif>L’oignon est un légume à bulbe, généralement à chair blanche.</Descriptif>
+        </Ingredient>
+        <Ingredient>
+            <Nom>Champignons de paris</Nom>
+            <ApportNutritif>22 cal</ApportNutritif>
+            <Saison>Septembre-Juin</Saison>
+            <Descriptif>Le champignon est composé à 80-90% d'eau ce qui lui confère une valeur calorique très basse. </Descriptif>
+        </Ingredient>
+        <Ingredient>
+            <Nom>Branche de thym frais</Nom>
+            <ApportNutritif>0</ApportNutritif>
+            <Saison>Toute l'année</Saison>
+            <Descriptif>Le thym est un aromate que l'on trouve dans de nombreux plats de la cuisine française. Il fait parti du fameux bouquet garni que l'on retrouve dans de nombreux plats en sauce.</Descriptif>
+        </Ingredient>
+        <Ingredient>
+            <Nom>Vin rouge</Nom>
+            <ApportNutritif>0</ApportNutritif>
+            <Saison>Toute l'année</Saison>
+            <Descriptif>Un vin rouge est obtenu par la fermentation du moût de raisins noirs en présence de la pellicule, des pépins et éventuellement de la rafle.</Descriptif>
+        </Ingredient>
+        <Ingredient>
+            <Nom>Filet d'huile d'olive</Nom>
+            <ApportNutritif>899 cal</ApportNutritif>
+            <Saison>Toute l'année</Saison>
+            <Descriptif>L’huile d’olive est une source de vitamine E, un puissant antioxydant qui protège la membrane qui entoure notamment les cellules du système immunitaire.</Descriptif>
+        </Ingredient>
+        <Ingredient>
+            <Nom>Jaune d’œuf</Nom>
+            <ApportNutritif>322 cal</ApportNutritif>
+            <Saison>Toute l'année</Saison>
+            <Descriptif>Le jaune d’œuf, cas particulier de vitellus, est la partie de l’œuf qui sert de source de nourriture pour le développement de l’embryon. Le jaune et le disque germinal forment une seule cellule.</Descriptif>
+        </Ingredient>
+        <Ingredient>
+            <Nom>Sel</Nom>
+            <ApportNutritif>0</ApportNutritif>
+            <Saison>Toute l'année</Saison>
+            <Descriptif>Le sel de table, sel alimentaire ou sel de cuisine, est composé essentiellement de chlorure de sodium. Il se présente sous différentes formes : gros sel, sel fin, fleur de sel.</Descriptif>
+        </Ingredient>
+    </Ingredients>
 </Recettes>
-
-
-<Ingredients>
-<Ingredient>
-    <Nom>Filet de boeuf</Nom>
-    <ApportNutritif>3240 cal</ApportNutritif>
-    <Saison>Toute l'année</Saison>
-    <Descriptif>Le filet de bœuf est un morceau tendre et maigre du bœuf. Il est situé dans la région lombaire.</Descriptif>
-</Ingredient>
-<Ingredient>
-    <Nom>Pâte feuilletée</Nom>
-    <ApportNutritif>558 cal</ApportNutritif>
-    <Saison>Toutes l'année</Saison>
-    <Descriptif>La pâte feuilletée, également connue sous le nom de pâte feuilletée, est une pâte feuilletée légère fabriquée à partir d'une pâte feuilletée composée de pâte et de beurre ou d'une autre matière grasse solide.</Descriptif>
-</Ingredient>
-<Ingredient>
-    <Nom>Oignon</Nom>
-    <ApportNutritif>40 cal</ApportNutritif>
-    <Saison>Aout-Septembre</Saison>
-    <Descriptif>L’oignon est un légume à bulbe, généralement à chair blanche.</Descriptif>
-</Ingredient>
-<Ingredient>
-    <Nom>Champignons de paris</Nom>
-    <ApportNutritif>22 cal</ApportNutritif>
-    <Saison>Septembre-Juin</Saison>
-    <Descriptif>Le champignon est composé à 80-90% d'eau ce qui lui confère une valeur calorique très basse. </Descriptif>
-</Ingredient>
-<Ingredient>
-    <Nom>Branche de thym frais</Nom>
-    <ApportNutritif>0</ApportNutritif>
-    <Saison>Toute l'année</Saison>
-    <Descriptif>Le thym est un aromate que l'on trouve dans de nombreux plats de la cuisine française. Il fait parti du fameux bouquet garni que l'on retrouve dans de nombreux plats en sauce.</Descriptif>
-</Ingredient>
-<Ingredient>
-    <Nom>Vin rouge</Nom>
-    <ApportNutritif>0</ApportNutritif>
-    <Saison>Toute l'année</Saison>
-    <Descriptif>Un vin rouge est obtenu par la fermentation du moût de raisins noirs en présence de la pellicule, des pépins et éventuellement de la rafle.</Descriptif>
-</Ingredient>
-<Ingredient>
-    <Nom>Filet d'huile d'olive</Nom>
-    <ApportNutritif>899 cal</ApportNutritif>
-    <Saison>Toute l'année</Saison>
-    <Descriptif>L’huile d’olive est une source de vitamine E, un puissant antioxydant qui protège la membrane qui entoure notamment les cellules du système immunitaire.</Descriptif>
-</Ingredient>
-<Ingredient>
-    <Nom>Jaune d’œuf</Nom>
-    <ApportNutritif>322 cal</ApportNutritif>
-    <Saison>Toute l'année</Saison>
-    <Descriptif>Le jaune d’œuf, cas particulier de vitellus, est la partie de l’œuf qui sert de source de nourriture pour le développement de l’embryon. Le jaune et le disque germinal forment une seule cellule.</Descriptif>
-</Ingredient>
-<Ingredient>
-    <Nom>Sel</Nom>
-    <ApportNutritif>0</ApportNutritif>
-    <Saison>Toute l'année</Saison>
-    <Descriptif>Le sel de table, sel alimentaire ou sel de cuisine, est composé essentiellement de chlorure de sodium. Il se présente sous différentes formes : gros sel, sel fin, fleur de sel.</Descriptif>
-</Ingredient>
-</Ingredients>

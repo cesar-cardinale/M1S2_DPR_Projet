@@ -6,4 +6,4 @@
 <!ELEMENT Pays (#PCDATA)>
 <!ELEMENT Biographie (#PCDATA)>
 
-<!ATTLIST Auteur nom ID>
+<!ATTLIST Auteur nom (#PCDATA)>

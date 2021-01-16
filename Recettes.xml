@@ -4,12 +4,11 @@
         <!ENTITY Auteurs SYSTEM "Auteurs.xml">
         ]>
 <Recettes>
-    <Recette nom="boeufWellington">
+    <Recette nom="Boeuf Wellington" difficulte="Très facile">
         <Titre>Bœuf Wellington</Titre>
         <Resume>Avez-vous déjà dégusté un bœuf wellington ? Sa cuisson en pâte feuilletée préserve sa saveur pour un résultat délicieux. Une belle spécialité anglaise.</Resume>
         <Photo>https://odelices.ouest-france.fr/images/recettes/boeuf_wellington.jpg</Photo>
         <DatePublication>12/09/2020</DatePublication>
-        <Difficulte>Très Facile</Difficulte>
         <ListeIngredients>
             <Ingredient nom="Filet de boeuf" quantite="1kg" />
             <Ingredient nom="Pâte feuilletée" quantite="1" />

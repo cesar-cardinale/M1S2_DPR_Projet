@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?><recettes>
+    <recette nom="r2830" difficulte="Très facile">
+        <Titre>Cake à la tomate farcie</Titre>
+        <Resume>Cake à la tomate farcie - Recettes de cuisine Ôdélices</Resume>
+        <Photo>http://www.odelices.com/images/recettes/cake-a-la-tomate-farcie.jpg</Photo>
+        <DatePublication>2011-04-24</DatePublication>
+        <ListeIngredients>
+            <Ingredient nom="farine"/>
+            <Ingredient nom="levure chimique"/>
+            <Ingredient nom="lait"/>
+            <Ingredient nom="oeuf"/>
+            <Ingredient nom="huile d'olive"/>
+            <Ingredient nom="Thon"/>
+            <Ingredient nom="fromage de brebis"/>
+            <Ingredient nom="Tomate"/>
+            <Ingredient nom="sel"/>
+            <Ingredient nom="poivre"/>
+        </ListeIngredients>
+        <NbPersonnes>6</NbPersonnes>
+        <TempsPreparation>20min</TempsPreparation>
+        <TempsCuisson>25min</TempsCuisson>
+        <TempsRepos/>
+        <Description>1. Inciser le fond de chaque tomate et vider les graines à l'aide d'une toute petite cuillère (j'ai fait avec le manche d'une cuillère à moka).
+Saler l'intérieur de chaque tomate et déposer sur un papier absorbant, elles vont dégorger.
+</Description>
+        <Note/>
+        <ListeAuteurs>
+            <Auteur nom=""/>
+        </ListeAuteurs>
+    </recette>
+    <recette nom="r3136" difficulte="Très facile">
+        <Titre>Petits cakes au chèvre frais et myrtilles</Titre>
+        <Resume> Petits cakes au chèvre frais et myrtilles - les meilleures recettes de cuisine d'Ôdélices</Resume>
+        <Photo>http://www.odelices.com/images/recettes/petits-cakes-au-chevre-frais-et-myrtilles.jpg</Photo>
+        <DatePublication>2012-04-09</DatePublication>
+        <ListeIngredients>
+            <Ingredient nom="farine"/>
+            <Ingredient nom="lait"/>
+            <Ingredient nom="oeuf"/>
+            <Ingredient nom="huile d'olive"/>
+            <Ingredient nom="fromage de chèvre"/>
+            <Ingredient nom="bicarbonate de sodium"/>
+            <Ingredient nom="myrtilles"/>
+        </ListeIngredients>
+        <NbPersonnes>6</NbPersonnes>
+        <TempsPreparation>10min</TempsPreparation>
+        <TempsCuisson>17min</TempsCuisson>
+        <TempsRepos/>
+        <Description>1. Dans un saladier, mélangez la farine, le sel, le bicarbonate, les oeufs, le lait et l'huile.</Description>
+        <Note>5</Note>
+        <ListeAuteurs>
+            <Auteur nom=""/>
+        </ListeAuteurs>
+    </recette>
+    <recette nom="r4275" difficulte="Très facile">
+        <Titre>Mozzarella panée</Titre>
+        <Resume>Pour un soir de semaine, si vous voulez faire une salade express mais épatante, faites de la mozzarella panée ! C'est rapide, facile et très syma !
+</Resume>
+        <Photo>http://www.odelices.com/images/recettes/mozzarella_panee.jpg</Photo>
+        <DatePublication>2015-02-08</DatePublication>
+        <ListeIngredients>
+            <Ingredient nom="boules de mozzarella de bufflone"/>
+            <Ingredient nom="oeuf"/>
+            <Ingredient nom="farine"/>
+            <Ingredient nom="chapelure"/>
+        </ListeIngredients>
+        <NbPersonnes>4</NbPersonnes>
+        <TempsPreparation>5min</TempsPreparation>
+        <TempsCuisson>5min</TempsCuisson>
+        <TempsRepos/>
+        <Description>1. Coupez les boules de mozzarella en rondelles.</Description>
+        <Note>5</Note>
+        <ListeAuteurs>
+            <Auteur nom="Tombini"/>
+        </ListeAuteurs>
+    </recette>
+    <recette nom="r3289" difficulte="Très facile">
+        <Titre>Oeuf cocotte aux marrons</Titre>
+        <Resume/>
+        <Photo>http://www.odelices.com/images/recettes/oeuf_cocotte_aux_marrons.jpg</Photo>
+        <DatePublication>2012-11-22</DatePublication>
+        <ListeIngredients>
+            <Ingredient nom="marrons"/>
+            <Ingredient nom="oeuf"/>
+            <Ingredient nom="crème"/>
+            <Ingredient nom="sel"/>
+            <Ingredient nom="poivre"/>
+        </ListeIngredients>
+        <NbPersonnes>4</NbPersonnes>
+        <TempsPreparation>5min</TempsPreparation>
+        <TempsCuisson>15min</TempsCuisson>
+        <TempsRepos/>
+        <Description>1. Hachez grossièrement les marrons cuits. Répartissez-les dans 4 ramequins inviduels.</Description>
+        <Note/>
+        <ListeAuteurs>
+            <Auteur nom="Tombini"/>
+        </ListeAuteurs>
+    </recette>
+    <recette nom="r4315" difficulte="Très facile">
+        <Titre>Endives farcies au thon</Titre>
+        <Resume>
+
+Une salade « hébergée » dans une feuille d'endive ! Une idée gourmande qui ravira les plus jeunes qui pourront d'ailleurs vous aider à farcir les endives !</Resume>
+        <Photo>http://www.odelices.com/images/recettes/endives_farcies_au_thon1.jpg</Photo>
+        <DatePublication>2015-03-12</DatePublication>
+        <ListeIngredients>
+            <Ingredient nom="Endive"/>
+            <Ingredient nom="Tomate"/>
+            <Ingredient nom="cornichons"/>
+            <Ingredient nom="crème"/>
+            <Ingredient nom="moutarde"/>
+            <Ingredient nom="ciboulette"/>
+            <Ingredient nom="Thon"/>
+            <Ingredient nom="sel"/>
+            <Ingredient nom="poivre"/>
+        </ListeIngredients>
+        <NbPersonnes>4</NbPersonnes>
+        <TempsPreparation>15min</TempsPreparation>
+        <TempsCuisson/>
+        <TempsRepos/>
+        <Description>1. Lavez les tomates, coupez-les en deux et épépinez-les. Emincez finement la ciboulette.</Description>
+        <Note/>
+        <ListeAuteurs>
+            <Auteur nom="Tombini"/>
+        </ListeAuteurs>
+    </recette>
+    <recette nom="r1241" difficulte="Très facile">
+        <Titre>Moules et frites</Titre>
+        <Resume>	
+
+Si vous passez par le nord, prenez le temps de déguster des frites savoureuses dans une baraque à frites et n'oubliez pas de goûter à des moules de là-bas !
+Recettes extraites du livre Craquez pour la cuisine des chtis !
+</Resume>
+        <Photo>http://www.odelices.com/images/recettes/moules-frites.jpg</Photo>
+        <DatePublication>2006-06-01</DatePublication>
+        <ListeIngredients>
+            <Ingredient nom="moules"/>
+            <Ingredient nom="Oignon"/>
+            <Ingredient nom="Echalotte"/>
+            <Ingredient nom="céleri"/>
+            <Ingredient nom="beurre"/>
+            <Ingredient nom="Pommes de terre"/>
+            <Ingredient nom="huile d'olive"/>
+            <Ingredient nom="sel"/>
+        </ListeIngredients>
+        <NbPersonnes>4</NbPersonnes>
+        <TempsPreparation>15min</TempsPreparation>
+        <TempsCuisson>30 min</TempsCuisson>
+        <TempsRepos/>
+        <Description>
+				</Description>
+        <Note/>
+        <ListeAuteurs>
+            <Auteur nom="Descamps"/>
+        </ListeAuteurs>
+    </recette>
+    <recette nom="r2101" difficulte="Très facile">
+        <Titre>Gigot d'agneau au cumin</Titre>
+        <Resume>	
+
+Pour la cuisson d'un gigot d'agneau, comptez environ 15 min par livre. Il sera rosé à coeur.
+
+</Resume>
+        <Photo>http://www.odelices.com/images/recettes/gigot-d-agneau-au-cumin.jpg</Photo>
+        <DatePublication>2009-02-09</DatePublication>
+        <ListeIngredients>
+            <Ingredient nom="Agneau"/>
+            <Ingredient nom="beurre"/>
+            <Ingredient nom="sel"/>
+            <Ingredient nom="poivre"/>
+        </ListeIngredients>
+        <NbPersonnes>4</NbPersonnes>
+        <TempsPreparation>5min</TempsPreparation>
+        <TempsCuisson>45 min</TempsCuisson>
+        <TempsRepos/>
+        <Description>
+			1. Salez et poivrez le gigot d'agneau. Recouvrez-le de graines de cumin et déposez-le dans un plat allant au four.</Description>
+        <Note/>
+        <ListeAuteurs>
+            <Auteur nom="Tombini"/>
+        </ListeAuteurs>
+    </recette>
+    <recette nom="r497" difficulte="Facile">
+        <Titre>Gigot d'agneau à la moutarde et au thym, gousses d'ail confites</Titre>
+        <Resume>	
+
+Pour le repas de Pâques, j'aime beaucoup le traditionnel gigot d'agneau. C'est l'ami de ma soeur, qui a fait cette recette pour nous cette année. Le gigot était vraiment très parfumé et bien moelleux.
+</Resume>
+        <Photo>http://www.odelices.com/images/recettes/gigot-d-agneau-a-la-moutarde-et-au-thym-gousses-d-ail-confites.jpg</Photo>
+        <DatePublication>2004-01-10</DatePublication>
+        <ListeIngredients>
+            <Ingredient nom="Agneau"/>
+            <Ingredient nom="moutarde"/>
+            <Ingredient nom="huile d'olive"/>
+            <Ingredient nom="sel"/>
+            <Ingredient nom="poivre"/>
+        </ListeIngredients>
+        <NbPersonnes>6</NbPersonnes>
+        <TempsPreparation>10min</TempsPreparation>
+        <TempsCuisson>50 min</TempsCuisson>
+        <TempsRepos/>
+        <Description>
+	1. Préchauffez votre four à 180°C.
+2. Nettoyez bien le gigot d'agneau, enlevez un peu de gras et salez-le. Mélangez la moutarde, le thym et l'huile et badigeonnez-en le gigot.</Description>
+        <Note>5</Note>
+        <ListeAuteurs>
+            <Auteur nom=""/>
+        </ListeAuteurs>
+    </recette>
+    <recette nom="r1611" difficulte="Très Facile">
+        <Titre>Saumon teriyaki</Titre>
+        <Resume>
+
+Mon chéri adore la sauce teriyaki pour accompagner le saumon. Légèrement sucrée et un peu épaisse, elle rehausse le goût du poisson à merveille.
+
+</Resume>
+        <Photo>http://www.odelices.com/images/recettes/saumon-teriyaki.jpg</Photo>
+        <DatePublication>2007-07-20</DatePublication>
+        <ListeIngredients>
+            <Ingredient nom="saumon"/>
+            <Ingredient nom="sauce soja"/>
+            <Ingredient nom="vin blanc"/>
+            <Ingredient nom="vinaigre blanc"/>
+            <Ingredient nom="gingembre"/>
+            <Ingredient nom="sucre"/>
+        </ListeIngredients>
+        <NbPersonnes>4</NbPersonnes>
+        <TempsPreparation>5min</TempsPreparation>
+        <TempsCuisson>15min</TempsCuisson>
+        <TempsRepos>30min</TempsRepos>
+        <Description>
+	1. . Retirez les arêtes des pavés de saumon.</Description>
+        <Note>5</Note>
+        <ListeAuteurs>
+            <Auteur nom="Tombini"/>
+        </ListeAuteurs>
+    </recette>
+    <recette nom="r1915" difficulte="Très Facile">
+        <Titre>Pavé de saumon aux girolles</Titre>
+        <Resume>
+
+Profitez d' une balade dans les bois pour ramasser quelques girolles et les cuisiner à la crème avec un beau pavé de saumon.
+</Resume>
+        <Photo>http://www.odelices.com/images/recettes/paves_de_saumon_aux_girolles.jpg</Photo>
+        <DatePublication>2008-06-24</DatePublication>
+        <ListeIngredients>
+            <Ingredient nom="saumon"/>
+            <Ingredient nom="girolles"/>
+            <Ingredient nom="crème"/>
+            <Ingredient nom="vin blanc"/>
+            <Ingredient nom="gingembre"/>
+            <Ingredient nom="Echalotte"/>
+            <Ingredient nom="sel"/>
+            <Ingredient nom="poivre"/>
+        </ListeIngredients>
+        <NbPersonnes>2</NbPersonnes>
+        <TempsPreparation>10min</TempsPreparation>
+        <TempsCuisson>20min</TempsCuisson>
+        <TempsRepos/>
+        <Description>
+	1. Pelez et coupez l'échalote en très fines tranches.</Description>
+        <Note/>
+        <ListeAuteurs>
+            <Auteur nom="Tombini"/>
+        </ListeAuteurs>
+    </recette>
+    <recette nom="r4385" difficulte="Très Facile">
+        <Titre>Moelleux au chocolat noir et à l'huile d'olive</Titre>
+        <Resume>
+
+Donnez une touche d'originalité à vos moelleux au chocolat en remplaçant le beurre par de l'huile d'olive. Et pour une version sans lactose, utilisez de la crème végétale.
+</Resume>
+        <Photo>http://www.odelices.com/images/recettes/moelleux_au_chocolat_noir.jpg</Photo>
+        <DatePublication>2015-04-17</DatePublication>
+        <ListeIngredients>
+            <Ingredient nom="Chocolat Noir"/>
+            <Ingredient nom="oeuf"/>
+            <Ingredient nom="crème"/>
+            <Ingredient nom="cacao"/>
+            <Ingredient nom="huile d'olive"/>
+        </ListeIngredients>
+        <NbPersonnes>6</NbPersonnes>
+        <TempsPreparation>15min</TempsPreparation>
+        <TempsCuisson>10min</TempsCuisson>
+        <TempsRepos/>
+        <Description>
+	1. Coupez le chocolat en carré et faites-le fondre au bain-marie (ou au micro-onde).</Description>
+        <Note>5</Note>
+        <ListeAuteurs>
+            <Auteur nom="Tombini"/>
+        </ListeAuteurs>
+    </recette>
+    <recette nom="r957" difficulte="Facile">
+        <Titre>Moelleux au chocolat, coeur fondant aux framboises</Titre>
+        <Resume>
+
+Pour le ou la faire craquer : un moelleux y a pas mieux !!! Pour être sûr de réussir votre coup, faites-les cuire dans de jolis ramequins et ne vous embêtez pas à les démouler. Dégustez-les à la cuillère, c' est aussi bon !
+</Resume>
+        <Photo>http://www.odelices.com/images/recettes/moelleux_au_chocolat_coeur_fondant_aux_framboises.jpg</Photo>
+        <DatePublication>2005-06-27</DatePublication>
+        <ListeIngredients>
+            <Ingredient nom="Chocolat Noir"/>
+            <Ingredient nom="beurre"/>
+            <Ingredient nom="sucre"/>
+            <Ingredient nom="farine"/>
+            <Ingredient nom="oeuf"/>
+            <Ingredient nom="Framboise"/>
+        </ListeIngredients>
+        <NbPersonnes>2</NbPersonnes>
+        <TempsPreparation>10min</TempsPreparation>
+        <TempsCuisson>10min</TempsCuisson>
+        <TempsRepos/>
+        <Description>
+1. Réunissez les framboises et le sucre dans une petite casserole. Faites chauffer doucement jusqu'à obtenir une compotée, remuez régulièrement. Si vous préférez, vous pouvez passer la compotée de framboises au tamis pour enlever les pépins.</Description>
+        <Note>5</Note>
+        <ListeAuteurs>
+            <Auteur nom="Tombini"/>
+        </ListeAuteurs>
+    </recette>
+    <recette nom="r2678" difficulte="Très Facile">
+        <Titre>Moelleux au chocolat au coeur cerise</Titre>
+        <Resume/>
+        <Photo>http://www.odelices.com/images/recettes/moelleux-au-chocolat-au-coeur-cerise.jpg</Photo>
+        <DatePublication>2010-10-21</DatePublication>
+        <ListeIngredients>
+            <Ingredient nom="Chocolat Noir"/>
+            <Ingredient nom="beurre"/>
+            <Ingredient nom="sucre"/>
+            <Ingredient nom="Cerises"/>
+            <Ingredient nom="oeuf"/>
+            <Ingredient nom="farine"/>
+        </ListeIngredients>
+        <NbPersonnes>2</NbPersonnes>
+        <TempsPreparation>20min</TempsPreparation>
+        <TempsCuisson>15min</TempsCuisson>
+        <TempsRepos/>
+        <Description>
+1. Lavez les cerises, dénoyautez-les.
+2. Coupez la chair grossièrement et faites-la compoter dans une casserole avec le sucre, sur feu vif. Remuez sans arrêt, faites épaissir environ 5 min.</Description>
+        <Note>4</Note>
+        <ListeAuteurs>
+            <Auteur nom="Tombini"/>
+        </ListeAuteurs>
+    </recette>
+</recettes>

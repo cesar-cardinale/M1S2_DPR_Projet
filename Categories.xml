@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Categories SYSTEM "Categories.dtd">
+<Categories>
+    <Categorie id="C1" nom="Entrées" nomCourt="Entrées" type="catégorie">
+        <Descriptif>
+            Toutes nos recettes d'entrées : Cakes salés, Entrées chaudes, Entrées froides, Quiches et Tartes, Salades, Sandwichs, Soupes et veloutés, Terrines, Verrines salées.
+        </Descriptif>
+    </Categorie>
+    <Categorie id="C2" nom="Recettes classiques" nomCourt="Recettes" type="catégorie">
+        <Descriptif>
+            Des recettes classiques pour avoir tous les incontournables de la cuisine.
+        </Descriptif>
+    </Categorie>
+</Categories>

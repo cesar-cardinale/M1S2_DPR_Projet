@@ -2,9 +2,9 @@
                 xmlns:xls="http://www.w3.org/1999/XSL/Transform">
     <xsl:output method="xml" indent="yes" />
     <xsl:template match="/">
-        <recettes>
+        <Recettes>
             <xsl:for-each select="//objet[@type = 'recette']">
-                <recette>
+                <Recette>
                     <xsl:attribute name="nom">
                         <xls:value-of select="@id"/>
                     </xsl:attribute>
@@ -59,9 +59,9 @@
                             </Auteur>
                         </xsl:for-each>
                     </ListeAuteurs>
-                </recette>
+                </Recette>
             </xsl:for-each>
-        </recettes>
+        </Recettes>
     </xsl:template>
 
 

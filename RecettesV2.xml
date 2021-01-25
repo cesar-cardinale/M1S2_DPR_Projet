@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><recettes>
-    <recette nom="r2830" difficulte="Très facile">
+<?xml version="1.0" encoding="UTF-8"?><Recettes>
+    <Recette nom="r2830" difficulte="Très facile">
         <Titre>Cake à la tomate farcie</Titre>
         <Resume>Cake à la tomate farcie - Recettes de cuisine Ôdélices</Resume>
         <Photo>http://www.odelices.com/images/recettes/cake-a-la-tomate-farcie.jpg</Photo>
@@ -27,8 +27,8 @@ Saler l'intérieur de chaque tomate et déposer sur un papier absorbant, elles v
         <ListeAuteurs>
             <Auteur nom=""/>
         </ListeAuteurs>
-    </recette>
-    <recette nom="r3136" difficulte="Très facile">
+    </Recette>
+    <Recette nom="r3136" difficulte="Très facile">
         <Titre>Petits cakes au chèvre frais et myrtilles</Titre>
         <Resume> Petits cakes au chèvre frais et myrtilles - les meilleures recettes de cuisine d'Ôdélices</Resume>
         <Photo>http://www.odelices.com/images/recettes/petits-cakes-au-chevre-frais-et-myrtilles.jpg</Photo>
@@ -51,8 +51,8 @@ Saler l'intérieur de chaque tomate et déposer sur un papier absorbant, elles v
         <ListeAuteurs>
             <Auteur nom=""/>
         </ListeAuteurs>
-    </recette>
-    <recette nom="r4275" difficulte="Très facile">
+    </Recette>
+    <Recette nom="r4275" difficulte="Très facile">
         <Titre>Mozzarella panée</Titre>
         <Resume>Pour un soir de semaine, si vous voulez faire une salade express mais épatante, faites de la mozzarella panée ! C'est rapide, facile et très syma !
 </Resume>
@@ -73,8 +73,8 @@ Saler l'intérieur de chaque tomate et déposer sur un papier absorbant, elles v
         <ListeAuteurs>
             <Auteur nom="Tombini"/>
         </ListeAuteurs>
-    </recette>
-    <recette nom="r3289" difficulte="Très facile">
+    </Recette>
+    <Recette nom="r3289" difficulte="Très facile">
         <Titre>Oeuf cocotte aux marrons</Titre>
         <Resume/>
         <Photo>http://www.odelices.com/images/recettes/oeuf_cocotte_aux_marrons.jpg</Photo>
@@ -95,8 +95,8 @@ Saler l'intérieur de chaque tomate et déposer sur un papier absorbant, elles v
         <ListeAuteurs>
             <Auteur nom="Tombini"/>
         </ListeAuteurs>
-    </recette>
-    <recette nom="r4315" difficulte="Très facile">
+    </Recette>
+    <Recette nom="r4315" difficulte="Très facile">
         <Titre>Endives farcies au thon</Titre>
         <Resume>
 
@@ -123,8 +123,8 @@ Une salade « hébergée » dans une feuille d'endive ! Une idée gourmande qui 
         <ListeAuteurs>
             <Auteur nom="Tombini"/>
         </ListeAuteurs>
-    </recette>
-    <recette nom="r1241" difficulte="Très facile">
+    </Recette>
+    <Recette nom="r1241" difficulte="Très facile">
         <Titre>Moules et frites</Titre>
         <Resume>	
 
@@ -153,8 +153,8 @@ Recettes extraites du livre Craquez pour la cuisine des chtis !
         <ListeAuteurs>
             <Auteur nom="Descamps"/>
         </ListeAuteurs>
-    </recette>
-    <recette nom="r2101" difficulte="Très facile">
+    </Recette>
+    <Recette nom="r2101" difficulte="Très facile">
         <Titre>Gigot d'agneau au cumin</Titre>
         <Resume>	
 
@@ -179,8 +179,8 @@ Pour la cuisson d'un gigot d'agneau, comptez environ 15 min par livre. Il sera r
         <ListeAuteurs>
             <Auteur nom="Tombini"/>
         </ListeAuteurs>
-    </recette>
-    <recette nom="r497" difficulte="Facile">
+    </Recette>
+    <Recette nom="r497" difficulte="Facile">
         <Titre>Gigot d'agneau à la moutarde et au thym, gousses d'ail confites</Titre>
         <Resume>	
 
@@ -206,8 +206,8 @@ Pour le repas de Pâques, j'aime beaucoup le traditionnel gigot d'agneau. C'est 
         <ListeAuteurs>
             <Auteur nom=""/>
         </ListeAuteurs>
-    </recette>
-    <recette nom="r1611" difficulte="Très Facile">
+    </Recette>
+    <Recette nom="r1611" difficulte="Très Facile">
         <Titre>Saumon teriyaki</Titre>
         <Resume>
 
@@ -234,8 +234,8 @@ Mon chéri adore la sauce teriyaki pour accompagner le saumon. Légèrement sucr
         <ListeAuteurs>
             <Auteur nom="Tombini"/>
         </ListeAuteurs>
-    </recette>
-    <recette nom="r1915" difficulte="Très Facile">
+    </Recette>
+    <Recette nom="r1915" difficulte="Très Facile">
         <Titre>Pavé de saumon aux girolles</Titre>
         <Resume>
 
@@ -263,8 +263,8 @@ Profitez d' une balade dans les bois pour ramasser quelques girolles et les cuis
         <ListeAuteurs>
             <Auteur nom="Tombini"/>
         </ListeAuteurs>
-    </recette>
-    <recette nom="r4385" difficulte="Très Facile">
+    </Recette>
+    <Recette nom="r4385" difficulte="Très Facile">
         <Titre>Moelleux au chocolat noir et à l'huile d'olive</Titre>
         <Resume>
 
@@ -289,8 +289,8 @@ Donnez une touche d'originalité à vos moelleux au chocolat en remplaçant le b
         <ListeAuteurs>
             <Auteur nom="Tombini"/>
         </ListeAuteurs>
-    </recette>
-    <recette nom="r957" difficulte="Facile">
+    </Recette>
+    <Recette nom="r957" difficulte="Facile">
         <Titre>Moelleux au chocolat, coeur fondant aux framboises</Titre>
         <Resume>
 
@@ -316,8 +316,8 @@ Pour le ou la faire craquer : un moelleux y a pas mieux !!! Pour être sûr de r
         <ListeAuteurs>
             <Auteur nom="Tombini"/>
         </ListeAuteurs>
-    </recette>
-    <recette nom="r2678" difficulte="Très Facile">
+    </Recette>
+    <Recette nom="r2678" difficulte="Très Facile">
         <Titre>Moelleux au chocolat au coeur cerise</Titre>
         <Resume/>
         <Photo>http://www.odelices.com/images/recettes/moelleux-au-chocolat-au-coeur-cerise.jpg</Photo>
@@ -341,5 +341,5 @@ Pour le ou la faire craquer : un moelleux y a pas mieux !!! Pour être sûr de r
         <ListeAuteurs>
             <Auteur nom="Tombini"/>
         </ListeAuteurs>
-    </recette>
-</recettes>
+    </Recette>
+</Recettes>

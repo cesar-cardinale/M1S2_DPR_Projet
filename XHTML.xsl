@@ -1,5 +1,5 @@
 <xsl:stylesheet version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-    <xsl:output method="html" indent="yes"/>
+    <xsl:output method="html" indent="yes" encoding="UTF-8"/>
     <xsl:template match="/">
     <html>
         <body>
@@ -23,14 +23,10 @@
             <xsl:value-of select="Photo"/>
         </xsl:attribute>
     </xsl:element>
-    <xsl:call-template name="ingredients" />
+    <ul class="ingredients">
+        <xsl:for-each select="ListeIngredients/Ingredient">
+            <li class="ingredient"><xsl:value-of select="@nom"/> - <xsl:value-of select="@quantite"/></li>
+        </xsl:for-each>
+    </ul>
 </xsl:template>
-
-    <xsl:template name="ingredients" match="/Ingredients">
-        <ul>
-            <xsl:for-each select="Ingredient">
-                <li><xsl:value-of select="@nom"/> - <xsl:value-of select="@quantite"/></li>
-            </xsl:for-each>
-        </ul>
-    </xsl:template>
 </xsl:stylesheet>

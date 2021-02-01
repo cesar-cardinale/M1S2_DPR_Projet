@@ -1,4 +1,6 @@
 <!ELEMENT Categories (Categorie*)>
-<!ELEMENT Categorie (Descriptif?)>
+<!ELEMENT Categorie (Descriptif?, Parent?)>
+<!ELEMENT Parent (#PCDATA) >
 
-<!ATTLIST Categorie id ID #IMPLIED nom CDATA #REQUIRED nomCourt CDATA #REQUIRED type CDATA #REQUIRED>
+<!ATTLIST Categorie id ID #IMPLIED nom CDATA #REQUIRED nomCourt CDATA #REQUIRED type (catégorie|sous-catégorie) #REQUIRED>
+<!ATTLIST Parent id-cat IDREF #REQUIRED>

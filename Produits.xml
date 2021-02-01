@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Produits>
+    <Produit id-produit="P1" nom="Légumes" nom-court="Légumes" >
+        <Ingredient idref="I3"/>
+        <Ingredient idref="I4"/>
+    </Produit>
+    <Produit id-produit="P2" nom="Viandes" nom-court="Viandes" >
+        <Ingredient idref="I1"/>
+    </Produit>
+    <Produit id-produit="P3" nom="Assaisonnement" nom-court="Assaisonnement" >
+        <Ingredient idref="I9"/>
+        <Ingredient idref="I7"/>
+        <Ingredient idref="I5"/>
+    </Produit>
+    <Produit id-produit="P4" nom="Produits laitiers et oeufs" nom-court="Laitiers" >
+        <Ingredient idref="I8"/>
+    </Produit>
+    <Produit id-produit="P5" nom="Boissons alcoolisées" nom-court="Boissons" >
+        <Ingredient idref="I6"/>
+    </Produit>
+    <Produit id-produit="P6" nom="Pâtes" nom-court="Pâtes" >
+        <Ingredient idref="I2"/>
+    </Produit>
+</Produits>

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE Recettes SYSTEM "Recettes.dtd">
-
 <Recettes>
 	<Recette nom="Boeuf Wellington" difficulte="Très-facile" categorie="C2">
 		<Titre>Bœuf Wellington</Titre>
@@ -8,15 +7,15 @@
 		<Photo>https://odelices.ouest-france.fr/images/recettes/boeuf_wellington.jpg</Photo>
 		<DatePublication>12/09/2020</DatePublication>
 		<ListeIngredients>
-			<Ingredient idref = "I1" quantite="1kg"/>
-			<Ingredient idref = "I2" quantite="1"/>
-			<Ingredient idref = "I3" quantite="1"/>
-			<Ingredient idref = "I4" quantite="400g"/>
-			<Ingredient idref = "I5" quantite="1"/>
-			<Ingredient idref = "I6" quantite="10cl"/>
-			<Ingredient idref = "I7" quantite="1"/>
-			<Ingredient idref = "I8" quantite="1"/>
-			<Ingredient idref = "I9" quantite="1"/>
+			<Ingredient idref="I1" quantite="1kg"/>
+			<Ingredient idref="I2" quantite="1"/>
+			<Ingredient idref="I3" quantite="1"/>
+			<Ingredient idref="I4" quantite="400g"/>
+			<Ingredient idref="I5" quantite="1"/>
+			<Ingredient idref="I6" quantite="10cl"/>
+			<Ingredient idref="I7" quantite="1"/>
+			<Ingredient idref="I8" quantite="1"/>
+			<Ingredient idref="I9" quantite="1"/>
 		</ListeIngredients>
 		<NbPersonnes>8</NbPersonnes>
 		<TempsPreparation unite="minutes">20</TempsPreparation>
@@ -39,4 +38,5 @@
     &cat;
     &aut;
     &ingr;
+    &prod;
 </Recettes>

@@ -1,0 +1,39 @@
+.receipt{
+    padding: 5vh 0;
+}
+.receipt .img{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 15vh 0;
+    text-align: center;
+}
+.receipt .img h2{
+    color: #FFFFFF;
+}
+.receipt .row.data{
+    margin: 10px 0;
+    font-weight: bold;
+}
+.receipt .resume{
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 10px;
+    padding: 8px 16px;
+    font-size: 15px;
+    color: #575656;
+}
+.receipt .ingredients{
+    margin: 10px 0;
+}
+.receipt .ingredients .ingredient{
+    text-transform: capitalize;
+}
+.receipt .steps{
+    margin: 10px 0;
+    text-align: justify;
+}
+.receipt .date{
+    text-align: right;
+    color: #363737;
+    font-style: italic;
+}

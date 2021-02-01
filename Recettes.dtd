@@ -1,12 +1,13 @@
-
-<!ENTITY   %  Categories  SYSTEM "Categories.dtd" >
+<!ENTITY % Categories  SYSTEM "Categories.dtd" >
 <!ENTITY cat SYSTEM "Categories.xml">
-<!ENTITY   %  Auteurs SYSTEM "Auteurs.dtd" >
+<!ENTITY % Auteurs SYSTEM "Auteurs.dtd" >
 <!ENTITY aut SYSTEM "Auteurs.xml">
 <!ENTITY   %  Ingredients SYSTEM "Ingredients.dtd" >
 <!ENTITY ingr SYSTEM "Ingredients.xml">
+<!ENTITY   %  Produits SYSTEM "Produits.dtd" >
+<!ENTITY prod SYSTEM "Produits.xml">
 
-<!ELEMENT Recettes (Recette*,Categories,Auteurs,Ingredients)>
+<!ELEMENT Recettes (Recette*,Categories,Auteurs,Ingredients,Produits)>
 <!ELEMENT Recette (Titre,Resume,Photo,DatePublication,ListeIngredients,NbPersonnes,TempsPreparation,TempsCuisson,TempsRepos,Description,Note,ListeAuteurs)>
 <!ELEMENT Titre (#PCDATA)>
 <!ELEMENT Resume (#PCDATA)>
@@ -27,6 +28,7 @@
 %Categories;
 %Auteurs;
 %Ingredients;
+%Produits;
 
 
 <!ATTLIST Recette nom CDATA #REQUIRED difficulte (Très-facile|Facile|Normal|Difficile|Très-difficile) #REQUIRED categorie IDREF #REQUIRED>

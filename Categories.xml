@@ -11,4 +11,10 @@
             Des recettes classiques pour avoir tous les incontournables de la cuisine.
         </Descriptif>
     </Categorie>
+    <Categorie id="SC1" nom="Entrées froides" nomCourt="Entrées" type="sous-catégorie">
+        <Descriptif>
+            Toutes nos recettes d'entrées froides : Cakes salés, Quiches et Tartes, Salades, Sandwichs, Terrines, Verrines salées ...
+        </Descriptif>
+        <Parent id-cat="C1" />
+    </Categorie>
 </Categories>

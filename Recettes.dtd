@@ -8,7 +8,7 @@
 <!ENTITY prod SYSTEM "Produits.xml">
 
 <!ELEMENT Recettes (Recette*,Categories,Auteurs,Ingredients,Produits)>
-<!ELEMENT Recette (Titre,Resume,Photo,DatePublication,ListeIngredients,NbPersonnes,TempsPreparation,TempsCuisson,TempsRepos,Description,Note,ListeAuteurs)>
+<!ELEMENT Recette (Titre?,Resume?,Photo?,DatePublication?,ListeIngredients?,NbPersonnes?,TempsPreparation?,TempsCuisson?,TempsRepos?,Description?,Note?,ListeAuteurs?)>
 <!ELEMENT Titre (#PCDATA)>
 <!ELEMENT Resume (#PCDATA)>
 <!ELEMENT Photo (#PCDATA)>
@@ -31,7 +31,7 @@
 %Produits;
 
 
-<!ATTLIST Recette nom CDATA #REQUIRED difficulte (Très-facile|Facile|Normal|Difficile|Très-difficile) #REQUIRED categorie IDREF #REQUIRED>
+<!ATTLIST Recette id-recette ID #IMPLIED nom CDATA #IMPLIED difficulte (Très-facile|Facile|Normal|Difficile|Très-difficile) #IMPLIED categorie IDREF #IMPLIED>
 <!ATTLIST Ingredient idref IDREF #IMPLIED quantite CDATA #IMPLIED>
 <!ATTLIST TempsPreparation unite (secondes|minutes|heures) #REQUIRED>
 <!ATTLIST TempsCuisson unite (secondes|minutes|heures) #REQUIRED>

@@ -1,9 +1,9 @@
 <!ENTITY Ingredients SYSTEM "Ingredients.xml">
-<!ENTITY Auteurs SYSTEM "Auteurs.xml">
-<!ENTITY Categories SYSTEM "Categories.xml">
+<!ENTITY Auteurs SYSTEM "Auteurs.dtd">
+<!ENTITY Categories SYSTEM "Categories.dtd">
 
 
-<!ELEMENT Recettes (Recette*)>
+<!ELEMENT Recettes (Recette*)>%Categories;
 <!ELEMENT Recette (Titre,Resume,Photo,DatePublication,ListeIngredients,NbPersonnes,TempsPreparation,TempsCuisson,TempsRepos,Description,Note,ListeAuteurs)>
 <!ELEMENT Titre (#PCDATA)>
 <!ELEMENT Resume (#PCDATA)>
@@ -18,10 +18,11 @@
 <!ELEMENT Description (Etape*)>
 <!ELEMENT Etape (#PCDATA)>
 <!ELEMENT Note (#PCDATA)>
-<!ELEMENT ListeAuteurs (%Auteurs;*)>
+<!ELEMENT ListeAuteurs (Aute)>
 
 
-<!ATTLIST Recette nom CDATA #REQUIRED categorie %Categories; IDREF difficulte (Très-facile|Facile|Normal|Difficile|Très-difficile) #REQUIRED>
+<!ATTLIST Recette nom CDATA #REQUIRED difficulte (Très-facile|Facile|Normal|Difficile|Très-difficile) #REQUIRED>
+<!ATTLIST Recette categorie IDREF #IMPLIED>
 <!ATTLIST Ingredient nom CDATA #REQUIRED quantite CDATA #REQUIRED>
 <!ATTLIST TempsPreparation unite (secondes|minutes|heures) #REQUIRED>
 <!ATTLIST TempsCuisson unite (secondes|minutes|heures) #REQUIRED>

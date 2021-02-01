@@ -7,3 +7,4 @@
 <!ELEMENT Biographie (#PCDATA)>
 
 <!ATTLIST Auteur nom (#PCDATA)>
+<!ATTLIST Auteur id ID #REQUIRED>

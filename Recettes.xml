@@ -5,7 +5,6 @@
 
 
 <Recettes>
-    &cat;
     <Recette nom="Boeuf Wellington" difficulte="Très-facile" categorie="C2">
         <Titre>Bœuf Wellington</Titre>
         <Resume>Avez-vous déjà dégusté un bœuf wellington ? Sa cuisson en pâte feuilletée préserve sa saveur pour un résultat délicieux. Une belle spécialité anglaise.</Resume>
@@ -40,4 +39,5 @@
             <Auteur nom="Tombini" />
         </ListeAuteurs>
     </Recette>
+    &cat;
 </Recettes>

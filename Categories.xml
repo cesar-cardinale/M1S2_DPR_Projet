@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE Categories SYSTEM "Categories.dtd">
+
 <Categories>
     <Categorie id="C1" nom="Entrées" nomCourt="Entrées" type="catégorie">
         <Descriptif>

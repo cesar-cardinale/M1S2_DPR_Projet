@@ -1,7 +1,6 @@
-<!ENTITY Ingredients SYSTEM "Ingredients.xml">
-<!ENTITY Auteurs SYSTEM "Auteurs.dtd">
-<!ENTITY Categories SYSTEM "Categories.dtd">
 
+<!ENTITY   %  Categories  SYSTEM "Categories.dtd" >
+<!ENTITY cat SYSTEM "Categories.xml">
 
 <!ELEMENT Recettes (Recette*,Categories)>
 <!ELEMENT Recette (Titre,Resume,Photo,DatePublication,ListeIngredients,NbPersonnes,TempsPreparation,TempsCuisson,TempsRepos,Description,Note,ListeAuteurs)>
@@ -29,4 +28,4 @@
 <!ATTLIST TempsCuisson unite (secondes|minutes|heures) #REQUIRED>
 <!ATTLIST TempsRepos unite (secondes|minutes|heures) #REQUIRED>
 <!ATTLIST Etape id CDATA #REQUIRED>
-<!ATTLIST Auteur nom CDATA>
+<!ATTLIST Auteur nom CDATA #IMPLIED>

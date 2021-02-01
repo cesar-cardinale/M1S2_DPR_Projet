@@ -1,6 +1,5 @@
 <!ELEMENT Auteurs (Auteur*)>
 <!ELEMENT Auteur (Nom?, Age?, Pays?,Sexe?,  Biographie?)>
-<!ELEMENT Nom (#PCDATA)>
 <!ELEMENT Age (#PCDATA)>
 <!ELEMENT Sexe (#PCDATA)>
 <!ELEMENT Pays (#PCDATA)>

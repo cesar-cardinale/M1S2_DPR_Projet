@@ -1,5 +1,4 @@
 <!ELEMENT Categories (Categorie*)>
-<!ELEMENT Categorie (Descriptif)>
-<!ELEMENT Descriptif (#PCDATA)>
+<!ELEMENT Categorie (Descriptif?)>
 
 <!ATTLIST Categorie id ID #IMPLIED nom CDATA #REQUIRED nomCourt CDATA #REQUIRED type CDATA #REQUIRED>

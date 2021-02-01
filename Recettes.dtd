@@ -3,15 +3,16 @@
 <!ENTITY cat SYSTEM "Categories.xml">
 <!ENTITY   %  Auteurs SYSTEM "Auteurs.dtd" >
 <!ENTITY aut SYSTEM "Auteurs.xml">
+<!ENTITY   %  Ingredients SYSTEM "Ingredients.dtd" >
+<!ENTITY ingr SYSTEM "Ingredients.xml">
 
-<!ELEMENT Recettes (Recette*,Categories,Auteurs)>
+<!ELEMENT Recettes (Recette*,Categories,Auteurs,Ingredients)>
 <!ELEMENT Recette (Titre,Resume,Photo,DatePublication,ListeIngredients,NbPersonnes,TempsPreparation,TempsCuisson,TempsRepos,Description,Note,ListeAuteurs)>
 <!ELEMENT Titre (#PCDATA)>
 <!ELEMENT Resume (#PCDATA)>
 <!ELEMENT Photo (#PCDATA)>
 <!ELEMENT DatePublication (#PCDATA)>
 <!ELEMENT ListeIngredients (Ingredient*)>
-<!ELEMENT Ingredient (#PCDATA)>
 <!ELEMENT NbPersonnes (#PCDATA)>
 <!ELEMENT TempsPreparation (#PCDATA)>
 <!ELEMENT TempsCuisson (#PCDATA)>
@@ -20,15 +21,19 @@
 <!ELEMENT Etape (#PCDATA)>
 <!ELEMENT Note (#PCDATA)>
 <!ELEMENT ListeAuteurs (Auteur)>
+<!ELEMENT Nom (#PCDATA)>
+<!ELEMENT Descriptif (#PCDATA)>
 
 %Categories;
 %Auteurs;
+%Ingredients;
 
 
 <!ATTLIST Recette nom CDATA #REQUIRED difficulte (Très-facile|Facile|Normal|Difficile|Très-difficile) #REQUIRED categorie IDREF #REQUIRED>
-<!ATTLIST Ingredient nom CDATA #REQUIRED quantite CDATA #REQUIRED>
+<!ATTLIST Ingredient idref IDREF #IMPLIED quantite CDATA #IMPLIED>
 <!ATTLIST TempsPreparation unite (secondes|minutes|heures) #REQUIRED>
 <!ATTLIST TempsCuisson unite (secondes|minutes|heures) #REQUIRED>
 <!ATTLIST TempsRepos unite (secondes|minutes|heures) #REQUIRED>
 <!ATTLIST Etape id CDATA #REQUIRED>
 <!ATTLIST Auteur idref IDREF #IMPLIED>
+

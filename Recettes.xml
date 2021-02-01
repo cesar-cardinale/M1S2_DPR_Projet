@@ -33,8 +33,9 @@
 		</Description>
 		<Note>4</Note>
 		<ListeAuteurs>
-			<Auteur nom="Tombini"/>
+			<Auteur idref="A1"/>
 		</ListeAuteurs>
 	</Recette>
     &cat;
+    &aut;
 </Recettes>

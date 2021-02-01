@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE Auteurs SYSTEM "Auteurs.dtd">
 <Auteurs>
-    <Auteur nom="Tombini" id="A1">
+    <Auteur id="A1">
         <Nom>Marie-Laure Tombini</Nom>
         <Age>53</Age>
         <Pays>France</Pays>

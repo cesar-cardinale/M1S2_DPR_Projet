@@ -1,10 +1,10 @@
 <!ELEMENT Auteurs (Auteur*)>
-<!ELEMENT Auteur (Nom, Age, Sexe, Pays, Biographie)>
+<!ELEMENT Auteur (Nom?, Age?, Pays?,Sexe?,  Biographie?)>
 <!ELEMENT Nom (#PCDATA)>
 <!ELEMENT Age (#PCDATA)>
 <!ELEMENT Sexe (#PCDATA)>
 <!ELEMENT Pays (#PCDATA)>
 <!ELEMENT Biographie (#PCDATA)>
 
-<!ATTLIST Auteur nom (#PCDATA)>
-<!ATTLIST Auteur id ID #REQUIRED>
+
+<!ATTLIST Auteur id ID #IMPLIED>

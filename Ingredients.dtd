@@ -1,6 +1,7 @@
 <!ELEMENT Ingredients (Ingredient*)>
-<!ELEMENT Ingredient (Nom?,ApportNutritif?,Saison?,Descriptif?)>
+<!ELEMENT Ingredient (Nom?,ApportNutritif?,ApportÉnergétique?,Saison?,Descriptif?)>
 <!ELEMENT ApportNutritif (#PCDATA)>
+<!ELEMENT ApportÉnergétique (#PCDATA)>
 <!ELEMENT Saison (#PCDATA)>
 
 <!ATTLIST Ingredient id-ingredient ID #IMPLIED id-produit IDREF #IMPLIED>

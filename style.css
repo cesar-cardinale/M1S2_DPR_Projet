@@ -26,7 +26,6 @@
     margin: 10px 0;
 }
 .receipt .ingredients .ingredient{
-    text-transform: capitalize;
 }
 .receipt .steps{
     margin: 10px 0;
@@ -37,3 +36,7 @@
     color: #363737;
     font-style: italic;
 }
+/*
+                            <xsl:variable name="nomAuteur" select="@value"/>
+                            <xsl:value-of select="//objet[@id = $nomAuteur]/info[@nom = 'nom']/@value"/>
+ */

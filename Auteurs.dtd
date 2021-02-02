@@ -1,9 +1,10 @@
 <!ELEMENT Auteurs (Auteur*)>
-<!ELEMENT Auteur (Nom?, Age?, Pays?,Sexe?,  Biographie?)>
+<!ELEMENT Auteur (Nom?, Age?, Pays?,Sexe?,  Biographie?, ListeRecettes?)>
 <!ELEMENT Age (#PCDATA)>
 <!ELEMENT Sexe (#PCDATA)>
 <!ELEMENT Pays (#PCDATA)>
 <!ELEMENT Biographie (#PCDATA)>
-
+<!ELEMENT ListeRecettes (Recette*) >
 
 <!ATTLIST Auteur id ID #IMPLIED>
+<!ATTLIST Recette id IDREF #IMPLIED >

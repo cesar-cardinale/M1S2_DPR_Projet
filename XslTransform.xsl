@@ -25,10 +25,13 @@
                     </DatePublication>
                     <ListeIngredients>
                         <xsl:for-each select="info[@nom = 'ingrédient']">
-                            <xsl:variable name="idIngr" select="@value"/>
                             <Ingredient>
+                                <xsl:variable name="idIngr" select="@value"/>
                                 <xsl:attribute name="nom">
                                     <xls:value-of select="//objet[@id = $idIngr]/info[@nom = 'nom']/@value"/>
+                                </xsl:attribute>
+                                <xsl:attribute name="quantite">
+                                    <xls:value-of select="@quantite"/>
                                 </xsl:attribute>
                             </Ingredient>
                         </xsl:for-each>
@@ -44,25 +47,76 @@
                         <xsl:value-of select="info[@nom = 'Repos']/@value"/>
                     </TempsRepos>
                     <Description>
-                        <xsl:value-of select="info[@nom = 'Préparation']/p/text()"/>
+                        <xsl:value-of select="info[@nom = 'Préparation']/child::*"/>
                     </Description>
                     <Note>
                         <xsl:value-of select="info[@nom = 'note']/@value"/>
                     </Note>
                     <ListeAuteurs>
                         <xsl:for-each select="info[@nom = 'auteur']">
-                            <xsl:variable name="nomAuteur" select="@value"/>
                             <Auteur>
-                                <xsl:attribute name="nom">
-                                    <xsl:value-of select="//objet[@id = $nomAuteur]/info[@nom = 'nom']/@value"/>
+                                <xsl:attribute name="idref">
+                                    <xsl:value-of select="@value" />
                                 </xsl:attribute>
                             </Auteur>
                         </xsl:for-each>
                     </ListeAuteurs>
                 </Recette>
             </xsl:for-each>
+            <Auteurs>
+                <xsl:for-each select="//objet[@type = 'auteur']">
+                    <Auteur>
+                        <xsl:attribute name="id">
+                            <xls:value-of select="@id"/>
+                        </xsl:attribute>
+                        <Nom><xsl:if test="info[@nom = 'nom']"><xsl:value-of select="info[@nom = 'nom']/@value" /></xsl:if>  <xsl:if test="info[@nom = 'prenom']"><xsl:value-of select="info[@nom = 'prenom']/@value" /></xsl:if></Nom>
+                        <Age><xsl:value-of select="info[@nom = 'age']" /></Age>
+                        <Pays><xsl:value-of select="info[@nom = 'pays']" /></Pays>
+                        <xsl:if test="info[@nom = 'biographie']"><Biographie><xsl:value-of select="info[@nom = 'biographie']/@value" /></Biographie></xsl:if>
+                        <xsl:if test="info[@nom = 'recette']">
+                            <ListeRecettes>
+                                <xsl:for-each select="info[@nom = 'recette']">
+                                    <Recette>
+                                        <xsl:attribute name="id">
+                                            <xls:value-of select="@value"/>
+                                        </xsl:attribute>
+                                    </Recette>
+                                </xsl:for-each>
+                            </ListeRecettes>
+                        </xsl:if>
+                    </Auteur>
+                </xsl:for-each>
+            </Auteurs>
+            <Ingredients>
+                <xsl:for-each select="//objet[@type = 'ingrédient']">
+                    <Ingredient>
+                        <xsl:attribute name="id-ingredient">
+                            <xls:value-of select="@id"/>
+                        </xsl:attribute>
+                        <xsl:attribute name="id-produit">
+                            <xls:value-of select="info[@nom = 'produit']/@value"/>
+                        </xsl:attribute>
+                        <Nom>
+                            <xls:value-of select="info[@nom = 'nom']/@value"/>
+                        </Nom>
+                        <ApportNutritif>
+                            <xls:value-of select="info[@nom = 'Apport nutritif']/@value"/>
+                        </ApportNutritif>
+                        <ApportÉnergétique>
+                            <xls:value-of select="info[@nom = 'Apport énergétique']/@value"/>
+                        </ApportÉnergétique>
+                        <Descriptif>
+                            <xls:value-of select="info[@nom = 'descriptif']/@value"/>
+                        </Descriptif>
+                        <xsl:if test="info[@nom = 'saison']">
+                            <Saison>
+                                <xls:value-of select="info[@nom = 'saison']/@value"/>
+                            </Saison>
+                        </xsl:if>
+                    </Ingredient>
+                </xsl:for-each>
+            </Ingredients>
         </Recettes>
     </xsl:template>
-
 
 </xsl:stylesheet>

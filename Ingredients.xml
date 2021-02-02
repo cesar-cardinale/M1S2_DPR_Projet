@@ -3,36 +3,42 @@
     <Ingredient id-ingredient="I1" id-produit="P2">
         <Nom>Filet de boeuf</Nom>
         <ApportNutritif>3240 cal</ApportNutritif>
+        <ApportÉnergétique>180 kcal pour100 g</ApportÉnergétique>
         <Saison>Toute l'année</Saison>
         <Descriptif>Le filet de bœuf est un morceau tendre et maigre du bœuf. Il est situé dans la région lombaire.</Descriptif>
     </Ingredient>
     <Ingredient id-ingredient="I2" id-produit="P6">
         <Nom>Pâte feuilletée</Nom>
         <ApportNutritif>558 cal</ApportNutritif>
+        <ApportÉnergétique>180 kcal pour100 g</ApportÉnergétique>
         <Saison>Toutes l'année</Saison>
         <Descriptif>La pâte feuilletée, également connue sous le nom de pâte feuilletée, est une pâte feuilletée légère fabriquée à partir d'une pâte feuilletée composée de pâte et de beurre ou d'une autre matière grasse solide.</Descriptif>
     </Ingredient>
     <Ingredient id-ingredient="I3" id-produit="P1">
         <Nom>Oignon</Nom>
         <ApportNutritif>40 cal</ApportNutritif>
+        <ApportÉnergétique>180 kcal pour100 g</ApportÉnergétique>
         <Saison>Aout-Septembre</Saison>
         <Descriptif>L’oignon est un légume à bulbe, généralement à chair blanche.</Descriptif>
     </Ingredient>
     <Ingredient  id-ingredient="I4" id-produit="P1">
         <Nom>Champignons de paris</Nom>
         <ApportNutritif>22 cal</ApportNutritif>
+        <ApportÉnergétique>180 kcal pour100 g</ApportÉnergétique>
         <Saison>Septembre-Juin</Saison>
         <Descriptif>Le champignon est composé à 80-90% d'eau ce qui lui confère une valeur calorique très basse. </Descriptif>
     </Ingredient>
     <Ingredient id-ingredient="I5" id-produit="P3">
         <Nom>Branche de thym frais</Nom>
         <ApportNutritif>0</ApportNutritif>
+        <ApportÉnergétique>180 kcal pour100 g</ApportÉnergétique>
         <Saison>Toute l'année</Saison>
         <Descriptif>Le thym est un aromate que l'on trouve dans de nombreux plats de la cuisine française. Il fait parti du fameux bouquet garni que l'on retrouve dans de nombreux plats en sauce.</Descriptif>
     </Ingredient>
     <Ingredient id-ingredient="I6">
         <Nom>Vin rouge</Nom>
         <ApportNutritif>0</ApportNutritif>
+        <ApportÉnergétique>180 kcal pour100 g</ApportÉnergétique>
         <Saison>Toute l'année</Saison>
         <Descriptif>Un vin rouge est obtenu par la fermentation du moût de raisins noirs en présence de la pellicule, des pépins et éventuellement de la rafle.</Descriptif>
     </Ingredient>
@@ -45,12 +51,14 @@
     <Ingredient id-ingredient="I8" id-produit="P4">
         <Nom>Jaune d’œuf</Nom>
         <ApportNutritif>322 cal</ApportNutritif>
+        <ApportÉnergétique>180 kcal pour100 g</ApportÉnergétique>
         <Saison>Toute l'année</Saison>
         <Descriptif>Le jaune d’œuf, cas particulier de vitellus, est la partie de l’œuf qui sert de source de nourriture pour le développement de l’embryon. Le jaune et le disque germinal forment une seule cellule.</Descriptif>
     </Ingredient>
     <Ingredient  id-ingredient="I9" id-produit="P3">
         <Nom>Sel</Nom>
         <ApportNutritif>0</ApportNutritif>
+        <ApportÉnergétique>180 kcal pour100 g</ApportÉnergétique>
         <Saison>Toute l'année</Saison>
         <Descriptif>Le sel de table, sel alimentaire ou sel de cuisine, est composé essentiellement de chlorure de sodium. Il se présente sous différentes formes : gros sel, sel fin, fleur de sel.</Descriptif>
     </Ingredient>

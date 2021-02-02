@@ -52,12 +52,13 @@
                 <div class="steps"><xsl:value-of select="Description" /></div>
                 <div class="date">
                     Publié le <xsl:value-of select="DatePublication"/>
-                    <xsl:if test="string-length(ListeAuteurs/Auteur/@nom)>0">
+                    <xsl:if test="ListeAuteurs/Auteur">
                         par
                         <xsl:for-each select="ListeAuteurs/Auteur">
+                            <xsl:variable name="id-auteur" select="@idref"/>
                             <a>
-                                <xsl:attribute name="href">/auteur/<xsl:value-of select="@id"/></xsl:attribute>
-                                <xsl:value-of select="@nom" />
+                                <xsl:attribute name="href">/auteur/<xsl:value-of select="$id-auteur"/></xsl:attribute>
+                                <xsl:value-of select="//objet[@id = $id-auteur]/Nom/@value"/>
                             </a>
                         </xsl:for-each>
                     </xsl:if>

@@ -1,11 +1,5 @@
-<!ELEMENT Categories (Categorie*,SousCategorie*)>
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT Categories (Categorie)>
 <!ELEMENT Categorie (Descriptif?)>
 
-<!ELEMENT SousCategorie (Descriptif?, Parent?, Recette?)>
-<!ELEMENT Parent (#PCDATA) >
-
-<!ATTLIST Categorie id-categorie ID #IMPLIED nom CDATA #REQUIRED nomCourt CDATA #REQUIRED type (catégorie) #REQUIRED>
-
-<!ATTLIST SousCategorie id-categorie ID #IMPLIED nom CDATA #REQUIRED nomCourt CDATA #REQUIRED type (sous-catégorie) #REQUIRED id-parent IDREF #IMPLIED>
-
-<!ATTLIST Recette id IDREF #IMPLIED >
+<!ATTLIST Categorie id-categorie ID #IMPLIED nom CDATA #IMPLIED>

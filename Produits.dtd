@@ -1,5 +1,5 @@
 <!ELEMENT Produits (Produit*)>
 <!ELEMENT Produit (Ingredient*)>
 
-<!ATTLIST Produit id-produit ID #REQUIRED nom CDATA #REQUIRED nom-court CDATA #REQUIRED>
+<!ATTLIST Produit id-produit ID #REQUIRED nom CDATA #REQUIRED>
 <!ATTLIST Ingredient id IDREF #IMPLIED>

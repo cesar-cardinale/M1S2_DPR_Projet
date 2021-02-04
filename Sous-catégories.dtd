@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT  Sous-categories (Sous-categorie*)>
+<!ELEMENT Sous-categorie (Descriptif) >
+
+<!ATTLIST Sous-categorie id ID #IMPLIED cat IDREF #IMPLIED nom CDATA #IMPLIED >

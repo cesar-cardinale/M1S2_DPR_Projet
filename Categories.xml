@@ -1,20 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <Categories>
-    <Categorie id-categorie="C1" nom="Entrées" nomCourt="Entrées" type="catégorie">
+    <Categorie id="C1" nom="Entrées" >
         <Descriptif>
             Toutes nos recettes d'entrées : Cakes salés, Entrées chaudes, Entrées froides, Quiches et Tartes, Salades, Sandwichs, Soupes et veloutés, Terrines, Verrines salées.
         </Descriptif>
     </Categorie>
-    <Categorie id-categorie="C2" nom="Recettes classiques" nomCourt="Recettes" type="catégorie">
+    <Categorie id="C2" nom="Recettes classiques" >
         <Descriptif>
             Des recettes classiques pour avoir tous les incontournables de la cuisine.
         </Descriptif>
     </Categorie>
-    <SousCategorie id-categorie="SC1" nom="Entrées froides" nomCourt="Entrées" type="sous-catégorie" id-parent="C1">
-        <Descriptif>
-            Toutes nos recettes d'entrées froides : Cakes salés, Quiches et Tartes, Salades, Sandwichs, Terrines, Verrines salées ...
-        </Descriptif>
-        <Recette id="R1" />
-    </SousCategorie>
 </Categories>

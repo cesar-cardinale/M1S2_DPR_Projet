@@ -11,6 +11,9 @@
                     <xsl:attribute name="difficulte">
                         <xls:value-of select="info[@nom = 'difficulté']/@value"/>
                     </xsl:attribute>
+                    <xsl:attribute name="sous-categorie">
+                        <xls:value-of select="info[@nom = 'sous-catégorie']/@value"/>
+                    </xsl:attribute>
                     <Titre>
                         <xls:value-of select="info[@nom = 'nom']/@value"/>
                     </Titre>
@@ -27,8 +30,8 @@
                         <xsl:for-each select="info[@nom = 'ingrédient']">
                             <Ingredient>
                                 <xsl:variable name="idIngr" select="@value"/>
-                                <xsl:attribute name="nom">
-                                    <xls:value-of select="//objet[@id = $idIngr]/info[@nom = 'nom']/@value"/>
+                                <xsl:attribute name="id">
+                                    <xls:value-of select="$idIngr"/>
                                 </xsl:attribute>
                                 <xsl:attribute name="quantite">
                                     <xls:value-of select="@quantite"/>
@@ -63,6 +66,39 @@
                     </ListeAuteurs>
                 </Recette>
             </xsl:for-each>
+            <Categories>
+                <xls:for-each select="//objet[@type = 'catégorie']">
+                    <Categorie>
+                        <xsl:attribute name="id-categorie">
+                            <xls:value-of select="@id"/>
+                        </xsl:attribute>
+                        <xsl:attribute name="nom">
+                            <xls:value-of select="info[@nom = 'nom']/@value"/>
+                        </xsl:attribute>
+                        <Descriptif>
+                            <xsl:value-of select="info[@nom = 'descriptif']/child::*"/>
+                        </Descriptif>
+                    </Categorie>
+                </xls:for-each>
+            </Categories>
+            <Sous-categories>
+                <xls:for-each select="//objet[@type = 'sous-catégorie']">
+                    <Sous-categorie>
+                        <xls:attribute name="id">
+                            <xls:value-of select="@id"/>
+                        </xls:attribute>
+                        <xls:attribute name="cat">
+                            <xls:value-of select="info[@nom = 'catégorie']/@value"/>
+                        </xls:attribute>
+                        <xsl:attribute name="nom">
+                            <xls:value-of select="info[@nom = 'nom']/@value"/>
+                        </xsl:attribute>
+                        <Descriptif>
+                            <xsl:value-of select="info[@nom = 'descriptif']/child::*"/>
+                        </Descriptif>
+                    </Sous-categorie>
+                </xls:for-each>
+            </Sous-categories>
             <Auteurs>
                 <xsl:for-each select="//objet[@type = 'auteur']">
                     <Auteur>
@@ -116,6 +152,25 @@
                     </Ingredient>
                 </xsl:for-each>
             </Ingredients>
+            <Produits>
+                <xls:for-each select="//objet[@type ='produit']">
+                    <Produit>
+                    <xls:attribute name="id-produit">
+                        <xls:value-of select="@id"/>
+                    </xls:attribute>
+                    <xls:attribute name="nom">
+                        <xls:value-of select="info[@nom='nom']/@value"/>
+                    </xls:attribute>
+                    <xls:for-each select="info[@type='ingrédient']">
+                        <Ingredient>
+                            <xls:attribute name="id">
+                                <xls:value-of select="@value"/>
+                            </xls:attribute>
+                        </Ingredient>
+                    </xls:for-each>
+                    </Produit>
+                </xls:for-each>
+            </Produits>
         </Recettes>
     </xsl:template>
 

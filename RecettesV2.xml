@@ -1,345 +1,890 @@
-<?xml version="1.0" encoding="UTF-8"?><Recettes>
-    <Recette nom="r2830" difficulte="Très facile">
-        <Titre>Cake à la tomate farcie</Titre>
-        <Resume>Cake à la tomate farcie - Recettes de cuisine Ôdélices</Resume>
-        <Photo>http://www.odelices.com/images/recettes/cake-a-la-tomate-farcie.jpg</Photo>
-        <DatePublication>2011-04-24</DatePublication>
-        <ListeIngredients>
-            <Ingredient nom="farine"/>
-            <Ingredient nom="levure chimique"/>
-            <Ingredient nom="lait"/>
-            <Ingredient nom="oeuf"/>
-            <Ingredient nom="huile d'olive"/>
-            <Ingredient nom="Thon"/>
-            <Ingredient nom="fromage de brebis"/>
-            <Ingredient nom="Tomate"/>
-            <Ingredient nom="sel"/>
-            <Ingredient nom="poivre"/>
-        </ListeIngredients>
-        <NbPersonnes>6</NbPersonnes>
-        <TempsPreparation>20min</TempsPreparation>
-        <TempsCuisson>25min</TempsCuisson>
-        <TempsRepos/>
-        <Description>1. Inciser le fond de chaque tomate et vider les graines à l'aide d'une toute petite cuillère (j'ai fait avec le manche d'une cuillère à moka).
+<?xml version="1.0" encoding="UTF-8"?>
+<Recettes>
+   <Recette nom="r2830" difficulte="Très facile" sous-categorie="SC1">
+      <Titre>Cake à la tomate farcie</Titre>
+      <Resume>Cake à la tomate farcie - Recettes de cuisine Ôdélices</Resume>
+      <Photo>http://www.odelices.com/images/recettes/cake-a-la-tomate-farcie.jpg</Photo>
+      <DatePublication>2011-04-24</DatePublication>
+      <ListeIngredients>
+         <Ingredient id="F120" quantite="100g"/>
+         <Ingredient id="L300" quantite="1 cuillère à café rase"/>
+         <Ingredient id="L50" quantite="7,5 cl"/>
+         <Ingredient id="O12" quantite="1"/>
+         <Ingredient id="H20" quantite="1 cuillère à soupe"/>
+         <Ingredient id="t142" quantite="1 petite boite "/>
+         <Ingredient id="F10" quantite="30 g"/>
+         <Ingredient id="t120" quantite="6 grappes"/>
+         <Ingredient id="S12" quantite=""/>
+         <Ingredient id="Po40" quantite=""/>
+      </ListeIngredients>
+      <NbPersonnes>6</NbPersonnes>
+      <TempsPreparation>20min</TempsPreparation>
+      <TempsCuisson>25min</TempsCuisson>
+      <TempsRepos/>
+      <Description>1. Inciser le fond de chaque tomate et vider les graines à l'aide d'une toute petite cuillère (j'ai fait avec le manche d'une cuillère à moka).
 Saler l'intérieur de chaque tomate et déposer sur un papier absorbant, elles vont dégorger.
-</Description>
-        <Note/>
-        <ListeAuteurs>
-            <Auteur nom=""/>
-        </ListeAuteurs>
-    </Recette>
-    <Recette nom="r3136" difficulte="Très facile">
-        <Titre>Petits cakes au chèvre frais et myrtilles</Titre>
-        <Resume> Petits cakes au chèvre frais et myrtilles - les meilleures recettes de cuisine d'Ôdélices</Resume>
-        <Photo>http://www.odelices.com/images/recettes/petits-cakes-au-chevre-frais-et-myrtilles.jpg</Photo>
-        <DatePublication>2012-04-09</DatePublication>
-        <ListeIngredients>
-            <Ingredient nom="farine"/>
-            <Ingredient nom="lait"/>
-            <Ingredient nom="oeuf"/>
-            <Ingredient nom="huile d'olive"/>
-            <Ingredient nom="fromage de chèvre"/>
-            <Ingredient nom="bicarbonate de sodium"/>
-            <Ingredient nom="myrtilles"/>
-        </ListeIngredients>
-        <NbPersonnes>6</NbPersonnes>
-        <TempsPreparation>10min</TempsPreparation>
-        <TempsCuisson>17min</TempsCuisson>
-        <TempsRepos/>
-        <Description>1. Dans un saladier, mélangez la farine, le sel, le bicarbonate, les oeufs, le lait et l'huile.</Description>
-        <Note>5</Note>
-        <ListeAuteurs>
-            <Auteur nom=""/>
-        </ListeAuteurs>
-    </Recette>
-    <Recette nom="r4275" difficulte="Très facile">
-        <Titre>Mozzarella panée</Titre>
-        <Resume>Pour un soir de semaine, si vous voulez faire une salade express mais épatante, faites de la mozzarella panée ! C'est rapide, facile et très syma !
+
+2. Beurrer et fariner 6 ramequins. Préchauffer le four à 180°C.
+3. Faire tiédir le lait 20-30 secondes au micro-onde. Battre l'oeuf en omelette, saler et poivrer puis ajouter la farine, la levure, le lait et l'huile. 
+ Ajouter le fromage râpé.
+4. Dans un bol mélanger la fêta et le thon égoutté à l'aide d'une fourchette et farcir les tomates avec cette préparation.
+
+5. Remplir les moules avec la pâte et déposer une tomate dans chaque en l'enfonçant au deux tiers du moule.
+
+6. Cuire entre 20 et 25 minutes.</Description>
+      <Note/>
+      <ListeAuteurs>
+         <Auteur idref="AUT3"/>
+      </ListeAuteurs>
+   </Recette>
+   <Recette nom="r3136" difficulte="Très facile" sous-categorie="SC1">
+      <Titre>Petits cakes au chèvre frais et myrtilles</Titre>
+      <Resume> Petits cakes au chèvre frais et myrtilles - les meilleures recettes de cuisine d'Ôdélices</Resume>
+      <Photo>http://www.odelices.com/images/recettes/petits-cakes-au-chevre-frais-et-myrtilles.jpg</Photo>
+      <DatePublication>2012-04-09</DatePublication>
+      <ListeIngredients>
+         <Ingredient id="F120" quantite="250 g"/>
+         <Ingredient id="L50" quantite="15cl"/>
+         <Ingredient id="O12" quantite="4"/>
+         <Ingredient id="H20" quantite="5cl"/>
+         <Ingredient id="FC20" quantite="2"/>
+         <Ingredient id="B200" quantite="1/4 cuillerée à café"/>
+         <Ingredient id="M110" quantite="100 g"/>
+      </ListeIngredients>
+      <NbPersonnes>6</NbPersonnes>
+      <TempsPreparation>10min</TempsPreparation>
+      <TempsCuisson>17min</TempsCuisson>
+      <TempsRepos/>
+      <Description>1. Dans un saladier, mélangez la farine, le sel, le bicarbonate, les oeufs, le lait et l'huile.
+2. Quand la pâte est belle, versez-la dans de petits moules à cake huilés.
+3. Répartissez sur les cakes de petits morceaux de fromage et les myrtilles.
+4. Faites cuire 17 minutes à 180°C four ventilé. Piquez un cake à l'aide de la pointe d'un couteau afin de vérifier la cuisson.
+5. Servez à température ambiante avec une salade croquante.
+			</Description>
+      <Note>5</Note>
+      <ListeAuteurs>
+         <Auteur idref="AUT2"/>
+      </ListeAuteurs>
+   </Recette>
+   <Recette nom="r4275" difficulte="Très facile" sous-categorie="SC2">
+      <Titre>Mozzarella panée</Titre>
+      <Resume>Pour un soir de semaine, si vous voulez faire une salade express mais épatante, faites de la mozzarella panée ! C'est rapide, facile et très syma !
 </Resume>
-        <Photo>http://www.odelices.com/images/recettes/mozzarella_panee.jpg</Photo>
-        <DatePublication>2015-02-08</DatePublication>
-        <ListeIngredients>
-            <Ingredient nom="boules de mozzarella de bufflone"/>
-            <Ingredient nom="oeuf"/>
-            <Ingredient nom="farine"/>
-            <Ingredient nom="chapelure"/>
-        </ListeIngredients>
-        <NbPersonnes>4</NbPersonnes>
-        <TempsPreparation>5min</TempsPreparation>
-        <TempsCuisson>5min</TempsCuisson>
-        <TempsRepos/>
-        <Description>1. Coupez les boules de mozzarella en rondelles.</Description>
-        <Note>5</Note>
-        <ListeAuteurs>
-            <Auteur nom="Tombini"/>
-        </ListeAuteurs>
-    </Recette>
-    <Recette nom="r3289" difficulte="Très facile">
-        <Titre>Oeuf cocotte aux marrons</Titre>
-        <Resume/>
-        <Photo>http://www.odelices.com/images/recettes/oeuf_cocotte_aux_marrons.jpg</Photo>
-        <DatePublication>2012-11-22</DatePublication>
-        <ListeIngredients>
-            <Ingredient nom="marrons"/>
-            <Ingredient nom="oeuf"/>
-            <Ingredient nom="crème"/>
-            <Ingredient nom="sel"/>
-            <Ingredient nom="poivre"/>
-        </ListeIngredients>
-        <NbPersonnes>4</NbPersonnes>
-        <TempsPreparation>5min</TempsPreparation>
-        <TempsCuisson>15min</TempsCuisson>
-        <TempsRepos/>
-        <Description>1. Hachez grossièrement les marrons cuits. Répartissez-les dans 4 ramequins inviduels.</Description>
-        <Note/>
-        <ListeAuteurs>
-            <Auteur nom="Tombini"/>
-        </ListeAuteurs>
-    </Recette>
-    <Recette nom="r4315" difficulte="Très facile">
-        <Titre>Endives farcies au thon</Titre>
-        <Resume>
+      <Photo>http://www.odelices.com/images/recettes/mozzarella_panee.jpg</Photo>
+      <DatePublication>2015-02-08</DatePublication>
+      <ListeIngredients>
+         <Ingredient id="B10" quantite="2"/>
+         <Ingredient id="O12" quantite="1"/>
+         <Ingredient id="F120" quantite="4 cuillerées à soupe"/>
+         <Ingredient id="CH12" quantite="1 petit bol"/>
+      </ListeIngredients>
+      <NbPersonnes>4</NbPersonnes>
+      <TempsPreparation>5min</TempsPreparation>
+      <TempsCuisson>5min</TempsCuisson>
+      <TempsRepos/>
+      <Description>1. Coupez les boules de mozzarella en rondelles.
+2. Mettez la farine et la chapelure dans deux assiettes. Et battez l'oeuf avec une fourchette dans un bol.
+3. Faites chauffer une poêle avec de l'huile.
+4. Faites tremper les rondelles de mozzarella dans la farine, puis dans l'oeuf et enfin dans la chapelure.
+5. Faites frire dans la poêle quelques minutes de chaque côté. Servez avec une salade verte.
+			</Description>
+      <Note>5</Note>
+      <ListeAuteurs>
+         <Auteur idref="AUT1"/>
+      </ListeAuteurs>
+   </Recette>
+   <Recette nom="r3289" difficulte="Très facile" sous-categorie="SC2">
+      <Titre>Oeuf cocotte aux marrons</Titre>
+      <Resume/>
+      <Photo>http://www.odelices.com/images/recettes/oeuf_cocotte_aux_marrons.jpg</Photo>
+      <DatePublication>2012-11-22</DatePublication>
+      <ListeIngredients>
+         <Ingredient id="M9" quantite="200 g"/>
+         <Ingredient id="O12" quantite="4"/>
+         <Ingredient id="C50" quantite="4 cuillerées à soupe"/>
+         <Ingredient id="S12" quantite=""/>
+         <Ingredient id="Po40" quantite=""/>
+      </ListeIngredients>
+      <NbPersonnes>4</NbPersonnes>
+      <TempsPreparation>5min</TempsPreparation>
+      <TempsCuisson>15min</TempsCuisson>
+      <TempsRepos/>
+      <Description>1. Hachez grossièrement les marrons cuits. Répartissez-les dans 4 ramequins inviduels.
+2. Répartissez une cuillère de crème sur les marrons.
+3. Puis cassez les oeufs et ajoutez-en un dans chaque ramequin, en les posant délicatement pour ne pas casser le jaune. Salez et poivrez.
+4. Placez les ramequins dans le four préchauffé à 180°C, au bain-marie. Faites cuire 15 min jusqu'à ce que le blanc soit bien pris.
+5. Servez chaud, avec des mouillettes de pain grillé.
+			</Description>
+      <Note/>
+      <ListeAuteurs>
+         <Auteur idref="AUT1"/>
+      </ListeAuteurs>
+   </Recette>
+   <Recette nom="r4315" difficulte="Très facile" sous-categorie="SC3">
+      <Titre>Endives farcies au thon</Titre>
+      <Resume>
 
 Une salade « hébergée » dans une feuille d'endive ! Une idée gourmande qui ravira les plus jeunes qui pourront d'ailleurs vous aider à farcir les endives !</Resume>
-        <Photo>http://www.odelices.com/images/recettes/endives_farcies_au_thon1.jpg</Photo>
-        <DatePublication>2015-03-12</DatePublication>
-        <ListeIngredients>
-            <Ingredient nom="Endive"/>
-            <Ingredient nom="Tomate"/>
-            <Ingredient nom="cornichons"/>
-            <Ingredient nom="crème"/>
-            <Ingredient nom="moutarde"/>
-            <Ingredient nom="ciboulette"/>
-            <Ingredient nom="Thon"/>
-            <Ingredient nom="sel"/>
-            <Ingredient nom="poivre"/>
-        </ListeIngredients>
-        <NbPersonnes>4</NbPersonnes>
-        <TempsPreparation>15min</TempsPreparation>
-        <TempsCuisson/>
-        <TempsRepos/>
-        <Description>1. Lavez les tomates, coupez-les en deux et épépinez-les. Emincez finement la ciboulette.</Description>
-        <Note/>
-        <ListeAuteurs>
-            <Auteur nom="Tombini"/>
-        </ListeAuteurs>
-    </Recette>
-    <Recette nom="r1241" difficulte="Très facile">
-        <Titre>Moules et frites</Titre>
-        <Resume>	
+      <Photo>http://www.odelices.com/images/recettes/endives_farcies_au_thon1.jpg</Photo>
+      <DatePublication>2015-03-12</DatePublication>
+      <ListeIngredients>
+         <Ingredient id="e300" quantite="2"/>
+         <Ingredient id="t120" quantite="2"/>
+         <Ingredient id="Co30" quantite="6"/>
+         <Ingredient id="C50" quantite="2 cuillerées à soupe"/>
+         <Ingredient id="M80" quantite="2 cuillerées à soupe"/>
+         <Ingredient id="CI10" quantite="50 g"/>
+         <Ingredient id="t142" quantite="10 brins"/>
+         <Ingredient id="S12" quantite=""/>
+         <Ingredient id="Po40" quantite=""/>
+      </ListeIngredients>
+      <NbPersonnes>4</NbPersonnes>
+      <TempsPreparation>15min</TempsPreparation>
+      <TempsCuisson/>
+      <TempsRepos/>
+      <Description>1. Lavez les tomates, coupez-les en deux et épépinez-les. Emincez finement la ciboulette.
+2. Mettez dans le bol du robot le thon, les tomates, les cornichons, la crème fraîche, la moutarde et la ciboulette. Mixez le tout grossièrement pour garder quelques morceaux. Salez légèrement et poivrez éventuellement.
+3. Passez les endives sous l'eau rapidement et enlevez le cône amer à la base des feuilles. Détachez les feuilles une par une, séchez-les bien.
+4. Répartissez la farce dans les feuilles et servez bien frais.</Description>
+      <Note/>
+      <ListeAuteurs>
+         <Auteur idref="AUT1"/>
+      </ListeAuteurs>
+   </Recette>
+   <Recette nom="r1241" difficulte="Très facile" sous-categorie="SC16">
+      <Titre>Moules et frites</Titre>
+      <Resume>	
 
 Si vous passez par le nord, prenez le temps de déguster des frites savoureuses dans une baraque à frites et n'oubliez pas de goûter à des moules de là-bas !
 Recettes extraites du livre Craquez pour la cuisine des chtis !
 </Resume>
-        <Photo>http://www.odelices.com/images/recettes/moules-frites.jpg</Photo>
-        <DatePublication>2006-06-01</DatePublication>
-        <ListeIngredients>
-            <Ingredient nom="moules"/>
-            <Ingredient nom="Oignon"/>
-            <Ingredient nom="Echalotte"/>
-            <Ingredient nom="céleri"/>
-            <Ingredient nom="beurre"/>
-            <Ingredient nom="Pommes de terre"/>
-            <Ingredient nom="huile d'olive"/>
-            <Ingredient nom="sel"/>
-        </ListeIngredients>
-        <NbPersonnes>4</NbPersonnes>
-        <TempsPreparation>15min</TempsPreparation>
-        <TempsCuisson>30 min</TempsCuisson>
-        <TempsRepos/>
-        <Description>
-				</Description>
-        <Note/>
-        <ListeAuteurs>
-            <Auteur nom="Descamps"/>
-        </ListeAuteurs>
-    </Recette>
-    <Recette nom="r2101" difficulte="Très facile">
-        <Titre>Gigot d'agneau au cumin</Titre>
-        <Resume>	
+      <Photo>http://www.odelices.com/images/recettes/moules-frites.jpg</Photo>
+      <DatePublication>2006-06-01</DatePublication>
+      <ListeIngredients>
+         <Ingredient id="MO7" quantite="2 à 3 litres"/>
+         <Ingredient id="oi16" quantite="2"/>
+         <Ingredient id="ech12" quantite="2"/>
+         <Ingredient id="CE5" quantite="1"/>
+         <Ingredient id="BEU1" quantite="20 g"/>
+         <Ingredient id="pom06" quantite="1 kg"/>
+         <Ingredient id="H20" quantite=""/>
+         <Ingredient id="S12" quantite=""/>
+      </ListeIngredients>
+      <NbPersonnes>4</NbPersonnes>
+      <TempsPreparation>15min</TempsPreparation>
+      <TempsCuisson>30 min</TempsCuisson>
+      <TempsRepos/>
+      <Description>
+				Pour les moules
+			</Description>
+      <Note/>
+      <ListeAuteurs>
+         <Auteur idref="AUT4"/>
+      </ListeAuteurs>
+   </Recette>
+   <Recette nom="r2101" difficulte="Très facile" sous-categorie="SC5">
+      <Titre>Gigot d'agneau au cumin</Titre>
+      <Resume>	
 
 Pour la cuisson d'un gigot d'agneau, comptez environ 15 min par livre. Il sera rosé à coeur.
 
 </Resume>
-        <Photo>http://www.odelices.com/images/recettes/gigot-d-agneau-au-cumin.jpg</Photo>
-        <DatePublication>2009-02-09</DatePublication>
-        <ListeIngredients>
-            <Ingredient nom="Agneau"/>
-            <Ingredient nom="beurre"/>
-            <Ingredient nom="sel"/>
-            <Ingredient nom="poivre"/>
-        </ListeIngredients>
-        <NbPersonnes>4</NbPersonnes>
-        <TempsPreparation>5min</TempsPreparation>
-        <TempsCuisson>45 min</TempsCuisson>
-        <TempsRepos/>
-        <Description>
-			1. Salez et poivrez le gigot d'agneau. Recouvrez-le de graines de cumin et déposez-le dans un plat allant au four.</Description>
-        <Note/>
-        <ListeAuteurs>
-            <Auteur nom="Tombini"/>
-        </ListeAuteurs>
-    </Recette>
-    <Recette nom="r497" difficulte="Facile">
-        <Titre>Gigot d'agneau à la moutarde et au thym, gousses d'ail confites</Titre>
-        <Resume>	
+      <Photo>http://www.odelices.com/images/recettes/gigot-d-agneau-au-cumin.jpg</Photo>
+      <DatePublication>2009-02-09</DatePublication>
+      <ListeIngredients>
+         <Ingredient id="a117" quantite="1,5 kg"/>
+         <Ingredient id="BEU1" quantite="20 g"/>
+         <Ingredient id="S12" quantite=""/>
+         <Ingredient id="Po40" quantite=""/>
+      </ListeIngredients>
+      <NbPersonnes>4</NbPersonnes>
+      <TempsPreparation>5min</TempsPreparation>
+      <TempsCuisson>45 min</TempsCuisson>
+      <TempsRepos/>
+      <Description>
+			1. Salez et poivrez le gigot d'agneau. Recouvrez-le de graines de cumin et déposez-le dans un plat allant au four.
+2. Répartissez des noisettes de beurre sur le dessus de la viande et versez un fond d'eau dans le plat (environ 2 cm d'eau).
+3. Faites cuire 45 min dans le four préchauffé à 180°C.
+4. Servez avec une salade de pousses d' épinards ou de cresson.
+			</Description>
+      <Note/>
+      <ListeAuteurs>
+         <Auteur idref="AUT1"/>
+      </ListeAuteurs>
+   </Recette>
+   <Recette nom="r497" difficulte="Facile" sous-categorie="SC5">
+      <Titre>Gigot d'agneau à la moutarde et au thym, gousses d'ail confites</Titre>
+      <Resume>	
 
 Pour le repas de Pâques, j'aime beaucoup le traditionnel gigot d'agneau. C'est l'ami de ma soeur, qui a fait cette recette pour nous cette année. Le gigot était vraiment très parfumé et bien moelleux.
 </Resume>
-        <Photo>http://www.odelices.com/images/recettes/gigot-d-agneau-a-la-moutarde-et-au-thym-gousses-d-ail-confites.jpg</Photo>
-        <DatePublication>2004-01-10</DatePublication>
-        <ListeIngredients>
-            <Ingredient nom="Agneau"/>
-            <Ingredient nom="moutarde"/>
-            <Ingredient nom="huile d'olive"/>
-            <Ingredient nom="sel"/>
-            <Ingredient nom="poivre"/>
-        </ListeIngredients>
-        <NbPersonnes>6</NbPersonnes>
-        <TempsPreparation>10min</TempsPreparation>
-        <TempsCuisson>50 min</TempsCuisson>
-        <TempsRepos/>
-        <Description>
+      <Photo>http://www.odelices.com/images/recettes/gigot-d-agneau-a-la-moutarde-et-au-thym-gousses-d-ail-confites.jpg</Photo>
+      <DatePublication>2004-01-10</DatePublication>
+      <ListeIngredients>
+         <Ingredient id="a117" quantite="1,8 kg"/>
+         <Ingredient id="M80" quantite="3 cuillères à soupe"/>
+         <Ingredient id="H20" quantite="1 cuillère à soupe "/>
+         <Ingredient id="S12" quantite=""/>
+         <Ingredient id="Po40" quantite=""/>
+      </ListeIngredients>
+      <NbPersonnes>6</NbPersonnes>
+      <TempsPreparation>10min</TempsPreparation>
+      <TempsCuisson>50 min</TempsCuisson>
+      <TempsRepos/>
+      <Description>
 	1. Préchauffez votre four à 180°C.
-2. Nettoyez bien le gigot d'agneau, enlevez un peu de gras et salez-le. Mélangez la moutarde, le thym et l'huile et badigeonnez-en le gigot.</Description>
-        <Note>5</Note>
-        <ListeAuteurs>
-            <Auteur nom=""/>
-        </ListeAuteurs>
-    </Recette>
-    <Recette nom="r1611" difficulte="Très Facile">
-        <Titre>Saumon teriyaki</Titre>
-        <Resume>
+2. Nettoyez bien le gigot d'agneau, enlevez un peu de gras et salez-le. Mélangez la moutarde, le thym et l'huile et badigeonnez-en le gigot.
+3. Placez le gigot dans un plat allant au four et enfournez 40 à 50 min.
+Pour une viande saignante, on compte 12 min de cuisson par livre (par 500 g), soit 43 min pour 1,8 kg.
+Pour une viande à point, on compte 15 min de cuisson par livre, soit 54 min pour 1,8 kg.
+Tout au long de la cuisson, retournez le gigot toutes les 10 min environ et arrosez-le avec le jus qui s'écoule au fond du plat.
+4. Pour la sauce : à la fin de la cuisson, déglacez le plat en versant le vin blanc. Décollez les sucs au fond du plat et remettez au four 5 min, le temps de découper la viande et de servir.
+5. Pour l'ail confit : ajoutez quelques gousses d'ail au fond du plat, non épluchées.
+
+Servez avec des fagots de haricots verts entourés de tranches de lard et des pommes de terre sautées
+
+
+			</Description>
+      <Note>5</Note>
+      <ListeAuteurs>
+         <Auteur idref="AUT5"/>
+      </ListeAuteurs>
+   </Recette>
+   <Recette nom="r1611" difficulte="Très Facile" sous-categorie="SC11">
+      <Titre>Saumon teriyaki</Titre>
+      <Resume>
 
 Mon chéri adore la sauce teriyaki pour accompagner le saumon. Légèrement sucrée et un peu épaisse, elle rehausse le goût du poisson à merveille.
 
 </Resume>
-        <Photo>http://www.odelices.com/images/recettes/saumon-teriyaki.jpg</Photo>
-        <DatePublication>2007-07-20</DatePublication>
-        <ListeIngredients>
-            <Ingredient nom="saumon"/>
-            <Ingredient nom="sauce soja"/>
-            <Ingredient nom="vin blanc"/>
-            <Ingredient nom="vinaigre blanc"/>
-            <Ingredient nom="gingembre"/>
-            <Ingredient nom="sucre"/>
-        </ListeIngredients>
-        <NbPersonnes>4</NbPersonnes>
-        <TempsPreparation>5min</TempsPreparation>
-        <TempsCuisson>15min</TempsCuisson>
-        <TempsRepos>30min</TempsRepos>
-        <Description>
-	1. . Retirez les arêtes des pavés de saumon.</Description>
-        <Note>5</Note>
-        <ListeAuteurs>
-            <Auteur nom="Tombini"/>
-        </ListeAuteurs>
-    </Recette>
-    <Recette nom="r1915" difficulte="Très Facile">
-        <Titre>Pavé de saumon aux girolles</Titre>
-        <Resume>
+      <Photo>http://www.odelices.com/images/recettes/saumon-teriyaki.jpg</Photo>
+      <DatePublication>2007-07-20</DatePublication>
+      <ListeIngredients>
+         <Ingredient id="s36" quantite="4 pavés"/>
+         <Ingredient id="SO7" quantite="4 cuillères à soupe"/>
+         <Ingredient id="V10" quantite="4 cuillères à soupe"/>
+         <Ingredient id="VI2" quantite="12 cuillères à soupe "/>
+         <Ingredient id="G63" quantite="1 cuillère à café"/>
+         <Ingredient id="SU2" quantite="1 cuillère à café"/>
+      </ListeIngredients>
+      <NbPersonnes>4</NbPersonnes>
+      <TempsPreparation>5min</TempsPreparation>
+      <TempsCuisson>15min</TempsCuisson>
+      <TempsRepos>30min</TempsRepos>
+      <Description>
+	1. . Retirez les arêtes des pavés de saumon.
+2. Mélangez l'ensemble des ingrédients et faites-y mariner le saumon 30 min.
+3. Placez les pavés de saumon dans un plat à gratin. Arrosez-les de marinade.
+4. Faites cuire environ 15 min dans le four préchauffé à 180°C.
+5. Servez chaud, avec du riz.
+			</Description>
+      <Note>5</Note>
+      <ListeAuteurs>
+         <Auteur idref="AUT1"/>
+      </ListeAuteurs>
+   </Recette>
+   <Recette nom="r1915" difficulte="Très Facile" sous-categorie="SC11">
+      <Titre>Pavé de saumon aux girolles</Titre>
+      <Resume>
 
 Profitez d' une balade dans les bois pour ramasser quelques girolles et les cuisiner à la crème avec un beau pavé de saumon.
 </Resume>
-        <Photo>http://www.odelices.com/images/recettes/paves_de_saumon_aux_girolles.jpg</Photo>
-        <DatePublication>2008-06-24</DatePublication>
-        <ListeIngredients>
-            <Ingredient nom="saumon"/>
-            <Ingredient nom="girolles"/>
-            <Ingredient nom="crème"/>
-            <Ingredient nom="vin blanc"/>
-            <Ingredient nom="gingembre"/>
-            <Ingredient nom="Echalotte"/>
-            <Ingredient nom="sel"/>
-            <Ingredient nom="poivre"/>
-        </ListeIngredients>
-        <NbPersonnes>2</NbPersonnes>
-        <TempsPreparation>10min</TempsPreparation>
-        <TempsCuisson>20min</TempsCuisson>
-        <TempsRepos/>
-        <Description>
-	1. Pelez et coupez l'échalote en très fines tranches.</Description>
-        <Note/>
-        <ListeAuteurs>
-            <Auteur nom="Tombini"/>
-        </ListeAuteurs>
-    </Recette>
-    <Recette nom="r4385" difficulte="Très Facile">
-        <Titre>Moelleux au chocolat noir et à l'huile d'olive</Titre>
-        <Resume>
+      <Photo>http://www.odelices.com/images/recettes/paves_de_saumon_aux_girolles.jpg</Photo>
+      <DatePublication>2008-06-24</DatePublication>
+      <ListeIngredients>
+         <Ingredient id="s36" quantite="350 g"/>
+         <Ingredient id="G15" quantite="150 g"/>
+         <Ingredient id="C50" quantite="8 cl"/>
+         <Ingredient id="V10" quantite="3 cl "/>
+         <Ingredient id="G63" quantite="1 cuillère à café"/>
+         <Ingredient id="ech12" quantite="une"/>
+         <Ingredient id="S12" quantite=""/>
+         <Ingredient id="Po40" quantite=""/>
+      </ListeIngredients>
+      <NbPersonnes>2</NbPersonnes>
+      <TempsPreparation>10min</TempsPreparation>
+      <TempsCuisson>20min</TempsCuisson>
+      <TempsRepos/>
+      <Description>
+	1. Pelez et coupez l'échalote en très fines tranches.
+2. Faites-la revenir dans une sauteuse avec un peu d' huile à feu moyen durant quelques minutes.
+3. Ajoutez les girolles, coupées en morceaux si elles sont trop grosses. Faites revenir 5 min à feu vif pour faire légèrement dorer.
+4. Poussez les girolles sur le côté, ajoutez le saumon. Faites dorer 2 min une face puis retournez le pavé de saumon très délicatement.
+5. Déglacez avec le vin blanc. Laissez réduire 3 min.
+6. Ajoutez la crème et terminez la cuisson durant 5 min à feu vif. Salez et poivrez à votre goût.
+7. Servez le pavé de saumon aux girolles avec des tagliatelles fraîches.
+				
+			</Description>
+      <Note/>
+      <ListeAuteurs>
+         <Auteur idref="AUT1"/>
+      </ListeAuteurs>
+   </Recette>
+   <Recette nom="r4385" difficulte="Très Facile" sous-categorie="SC14">
+      <Titre>Moelleux au chocolat noir et à l'huile d'olive</Titre>
+      <Resume>
 
 Donnez une touche d'originalité à vos moelleux au chocolat en remplaçant le beurre par de l'huile d'olive. Et pour une version sans lactose, utilisez de la crème végétale.
 </Resume>
-        <Photo>http://www.odelices.com/images/recettes/moelleux_au_chocolat_noir.jpg</Photo>
-        <DatePublication>2015-04-17</DatePublication>
-        <ListeIngredients>
-            <Ingredient nom="Chocolat Noir"/>
-            <Ingredient nom="oeuf"/>
-            <Ingredient nom="crème"/>
-            <Ingredient nom="cacao"/>
-            <Ingredient nom="huile d'olive"/>
-        </ListeIngredients>
-        <NbPersonnes>6</NbPersonnes>
-        <TempsPreparation>15min</TempsPreparation>
-        <TempsCuisson>10min</TempsCuisson>
-        <TempsRepos/>
-        <Description>
-	1. Coupez le chocolat en carré et faites-le fondre au bain-marie (ou au micro-onde).</Description>
-        <Note>5</Note>
-        <ListeAuteurs>
-            <Auteur nom="Tombini"/>
-        </ListeAuteurs>
-    </Recette>
-    <Recette nom="r957" difficulte="Facile">
-        <Titre>Moelleux au chocolat, coeur fondant aux framboises</Titre>
-        <Resume>
+      <Photo>http://www.odelices.com/images/recettes/moelleux_au_chocolat_noir.jpg</Photo>
+      <DatePublication>2015-04-17</DatePublication>
+      <ListeIngredients>
+         <Ingredient id="ch115" quantite="70 g"/>
+         <Ingredient id="O12" quantite="2 gros"/>
+         <Ingredient id="C50" quantite="30 g"/>
+         <Ingredient id="CA9" quantite="25 g"/>
+         <Ingredient id="H20" quantite="2 cuillerées à soupe"/>
+      </ListeIngredients>
+      <NbPersonnes>6</NbPersonnes>
+      <TempsPreparation>15min</TempsPreparation>
+      <TempsCuisson>10min</TempsCuisson>
+      <TempsRepos/>
+      <Description>
+	1. Coupez le chocolat en carré et faites-le fondre au bain-marie (ou au micro-onde).
+2. Séparez les blancs des jaunes d'oeufs.
+3. Dans un saladier, mélangez les jaunes avec le sucre. Ajoutez la crème liquide et l' huile d'olive.
+4. Incorporez ensuite le cacao et la fécule préalablement tamisés.
+5. Puis ajoutez le chocolat fondu.
+6. Battez les blancs d' oeufs en neige. Incorporez-les délicatement à la pâte à gâteau, à l' aide d_une spatule, en soulevant la pâte du bas vers le haut.
+7. Versez la pâte dans des moules à muffins de préférence en silicone, et enfournez pour 15 min à 180°C.
+
+			</Description>
+      <Note>5</Note>
+      <ListeAuteurs>
+         <Auteur idref="AUT1"/>
+      </ListeAuteurs>
+   </Recette>
+   <Recette nom="r957" difficulte="Facile" sous-categorie="SC14">
+      <Titre>Moelleux au chocolat, coeur fondant aux framboises</Titre>
+      <Resume>
 
 Pour le ou la faire craquer : un moelleux y a pas mieux !!! Pour être sûr de réussir votre coup, faites-les cuire dans de jolis ramequins et ne vous embêtez pas à les démouler. Dégustez-les à la cuillère, c' est aussi bon !
 </Resume>
-        <Photo>http://www.odelices.com/images/recettes/moelleux_au_chocolat_coeur_fondant_aux_framboises.jpg</Photo>
-        <DatePublication>2005-06-27</DatePublication>
-        <ListeIngredients>
-            <Ingredient nom="Chocolat Noir"/>
-            <Ingredient nom="beurre"/>
-            <Ingredient nom="sucre"/>
-            <Ingredient nom="farine"/>
-            <Ingredient nom="oeuf"/>
-            <Ingredient nom="Framboise"/>
-        </ListeIngredients>
-        <NbPersonnes>2</NbPersonnes>
-        <TempsPreparation>10min</TempsPreparation>
-        <TempsCuisson>10min</TempsCuisson>
-        <TempsRepos/>
-        <Description>
-1. Réunissez les framboises et le sucre dans une petite casserole. Faites chauffer doucement jusqu'à obtenir une compotée, remuez régulièrement. Si vous préférez, vous pouvez passer la compotée de framboises au tamis pour enlever les pépins.</Description>
-        <Note>5</Note>
-        <ListeAuteurs>
-            <Auteur nom="Tombini"/>
-        </ListeAuteurs>
-    </Recette>
-    <Recette nom="r2678" difficulte="Très Facile">
-        <Titre>Moelleux au chocolat au coeur cerise</Titre>
-        <Resume/>
-        <Photo>http://www.odelices.com/images/recettes/moelleux-au-chocolat-au-coeur-cerise.jpg</Photo>
-        <DatePublication>2010-10-21</DatePublication>
-        <ListeIngredients>
-            <Ingredient nom="Chocolat Noir"/>
-            <Ingredient nom="beurre"/>
-            <Ingredient nom="sucre"/>
-            <Ingredient nom="Cerises"/>
-            <Ingredient nom="oeuf"/>
-            <Ingredient nom="farine"/>
-        </ListeIngredients>
-        <NbPersonnes>2</NbPersonnes>
-        <TempsPreparation>20min</TempsPreparation>
-        <TempsCuisson>15min</TempsCuisson>
-        <TempsRepos/>
-        <Description>
+      <Photo>http://www.odelices.com/images/recettes/moelleux_au_chocolat_coeur_fondant_aux_framboises.jpg</Photo>
+      <DatePublication>2005-06-27</DatePublication>
+      <ListeIngredients>
+         <Ingredient id="ch115" quantite="40 g"/>
+         <Ingredient id="BEU1" quantite="25 g"/>
+         <Ingredient id="SU2" quantite="25 g"/>
+         <Ingredient id="F120" quantite="5 g"/>
+         <Ingredient id="O12" quantite="1 "/>
+         <Ingredient id="fr12" quantite="60 g"/>
+      </ListeIngredients>
+      <NbPersonnes>2</NbPersonnes>
+      <TempsPreparation>10min</TempsPreparation>
+      <TempsCuisson>10min</TempsCuisson>
+      <TempsRepos/>
+      <Description>
+1. Réunissez les framboises et le sucre dans une petite casserole. Faites chauffer doucement jusqu'à obtenir une compotée, remuez régulièrement. Si vous préférez, vous pouvez passer la compotée de framboises au tamis pour enlever les pépins.
+2. Cassez l' oeuf délicatement, séparez le blanc du jaune. Fouettez le jaune avec le sucre et la farine, puis lorsque la préparation est homogène, ajoutez le chocolat et le beurre fondus.
+3. Montez le blanc d' oeuf en neige avec une pincée de sel et ajoutez-le délicatement à la pâte.
+4. Répartissez les deux tiers de la préparation au fond de ramequins beurrés et farinés. Répartissez la compotée aux framboises au centre de chacun et couvrez avec le reste de la pâte.
+5. Faites cuire 10 min environ dans le four préchauffé à 180°C. Dégustez tièdes les moelleux, démoulés ou non.
+
+Astuce : la réalisation de la compotée de framboises permet d'éviter de trop sucrer vos moelleux et d'avoir un coeur réellement coulant. Si vous êtes pressés, remplacez par de la confiture, mais le résultat final sera bien plus sucré.
+
+
+			</Description>
+      <Note>5</Note>
+      <ListeAuteurs>
+         <Auteur idref="AUT1"/>
+      </ListeAuteurs>
+   </Recette>
+   <Recette nom="r2678" difficulte="Très Facile" sous-categorie="SC14">
+      <Titre>Moelleux au chocolat au coeur cerise</Titre>
+      <Resume/>
+      <Photo>http://www.odelices.com/images/recettes/moelleux-au-chocolat-au-coeur-cerise.jpg</Photo>
+      <DatePublication>2010-10-21</DatePublication>
+      <ListeIngredients>
+         <Ingredient id="ch115" quantite="40 g"/>
+         <Ingredient id="BEU1" quantite="25 g"/>
+         <Ingredient id="SU2" quantite="25 g"/>
+         <Ingredient id="ce100" quantite="100 g"/>
+         <Ingredient id="O12" quantite="1 de gros calibre"/>
+         <Ingredient id="F120" quantite="15 g"/>
+      </ListeIngredients>
+      <NbPersonnes>2</NbPersonnes>
+      <TempsPreparation>20min</TempsPreparation>
+      <TempsCuisson>15min</TempsCuisson>
+      <TempsRepos/>
+      <Description>
 1. Lavez les cerises, dénoyautez-les.
-2. Coupez la chair grossièrement et faites-la compoter dans une casserole avec le sucre, sur feu vif. Remuez sans arrêt, faites épaissir environ 5 min.</Description>
-        <Note>4</Note>
-        <ListeAuteurs>
-            <Auteur nom="Tombini"/>
-        </ListeAuteurs>
-    </Recette>
+2. Coupez la chair grossièrement et faites-la compoter dans une casserole avec le sucre, sur feu vif. Remuez sans arrêt, faites épaissir environ 5 min.
+3. Faites fondre le beurre et le chocolat à feu très doux ou au bain-marie.
+4. Incorporez au fouet le jaune d' oeuf et le sucre, puis ajoutez la farine.
+5. Fouettez le blanc d' oeuf en neige et ajoutez-le à la pâte sans trop l' écraser.
+6. Garnissez à demi des ramequins beurrés et répartissez la compotée de cerises au centre puis couvrez de pâte.
+7. Préchauffez le four à 180°C et faites cuire les moelleux au chocolat au coeur cerise 10 min.
+
+Astuce : vous pouvez garnir les moelleux d' une cuillerée de confiture du commerce, mais le moelleux sera beaucoup plus sucré.
+
+
+
+			</Description>
+      <Note>4</Note>
+      <ListeAuteurs>
+         <Auteur idref="AUT1"/>
+      </ListeAuteurs>
+   </Recette>
+   <Categories>
+      <Categorie id-categorie="C1" nom="Entrées">
+         <Descriptif>
+				Toutes nos recettes d'entrées : Cakes salés, Entrées chaudes, Entrées froides, Quiches et Tartes, Salades, Sandwichs, Soupes et veloutés, Terrines, Verrines salées.
+
+			</Descriptif>
+      </Categorie>
+      <Categorie id-categorie="C2" nom="Recettes classiques">
+         <Descriptif>
+				Des recettes classiques pour avoir tous les incontournables de la cuisine.
+			</Descriptif>
+      </Categorie>
+      <Categorie id-categorie="C3" nom="Boissons">
+         <Descriptif>
+				Surprenez vos convives avec notre sélection de cocktails originaux. Sans oublier les milk-shakes, smoothies et jus de fruits à servir aux enfants ou aux plus grands selon l'heure de la journée. Des boissons chaudes type chocolat chaud pour l'hiver, des thés glacés pour vous rafraichir pendant l'été. Et pour les amateurs, découvrez nos vins et apéritifs maison.
+
+			</Descriptif>
+      </Categorie>
+      <Categorie id-categorie="C4" nom="apéritifs">
+         <Descriptif>
+				Pour changer des apéritifs où l'on sert des cacahuètes et des chips je vous propose de confectionner de délicieuses bouchées salées, des feuilletés, des tapas Certes cela prend un peu plus de temps et demande un peu d'organisation mais le résultat est incomparable et vos invités seront certainement conquis. Alors trouvez votre bonheur, et celui de vos hôtes, dans notre sélection de recettes apéritives. Il y en a pour tous les goûts : recettes légères, rapides, exotiques, originales, traditionnelles
+
+
+			</Descriptif>
+      </Categorie>
+      <Categorie id-categorie="C5" nom="viandes">
+         <Descriptif>
+				 Toutes nos recettes de viande 
+
+
+			</Descriptif>
+      </Categorie>
+      <Categorie id-categorie="C6" nom="poissons et crustacés">
+         <Descriptif>
+				  Toutes nos recettes de poissons 
+			</Descriptif>
+      </Categorie>
+      <Categorie id-categorie="C7" nom="Sauces, beurres et condiments">
+         <Descriptif>
+				  Toutes nos recettes de sauces  
+			</Descriptif>
+      </Categorie>
+      <Categorie id-categorie="C8" nom="Autres plats">
+         <Descriptif>
+				   Toutes nos recettes d'autres plats  
+			</Descriptif>
+      </Categorie>
+      <Categorie id-categorie="C9" nom="pains">
+         <Descriptif>
+				    Toutes nos recettes de pains  
+			</Descriptif>
+      </Categorie>
+      <Categorie id-categorie="C10" nom="Desserts">
+         <Descriptif>
+				   Toutes nos recette de desserts : Biscuits, Cakes sucrés, Cupcakes et Muffins, Confitures et Gelées, Crèmes, Flans et Entremets, Crêpes, Beignets, Gaufres, Crumbles et Clafoutis, Douceurs, Fruits, Gâteaux, Gâteaux de fête, Glaces et Sorbets, Macarons, Tartes sucrées, Verrines sucrées.  
+			</Descriptif>
+      </Categorie>
+   </Categories>
+   <Sous-categories>
+      <Sous-categorie id="SC1" cat="C1" nom="Cakes">
+         <Descriptif>
+				   Catégorie Cakes : Ôdélices vous propose ses meilleures recettes testées et photographiées
+			</Descriptif>
+      </Sous-categorie>
+      <Sous-categorie id="SC2" cat="C1" nom="entrées-chaudes">
+         <Descriptif>
+				   Catégorie Entrées chaudes : Ôdélices vous propose ses meilleures recettes testées et photographiées
+			</Descriptif>
+      </Sous-categorie>
+      <Sous-categorie id="SC3" cat="C1" nom="Entrées-froides">
+         <Descriptif>
+				   Catégorie Entrées-froides : Ôdélices vous propose ses meilleures recettes testées et photographiées
+			</Descriptif>
+      </Sous-categorie>
+      <Sous-categorie id="SC4" cat="C1" nom="Pizzas">
+         <Descriptif>
+				     Catégorie Pizzas : Ôdélices vous propose ses meilleures recettes testées et photographiées
+
+			</Descriptif>
+      </Sous-categorie>
+      <Sous-categorie id="SC5" cat="C5" nom="Agneau">
+         <Descriptif>
+				     Catégorie Agneau : Ôdélices vous propose ses meilleures recettes testées et photographiées
+
+			</Descriptif>
+      </Sous-categorie>
+      <Sous-categorie id="SC6" cat="C5" nom="Boeuf">
+         <Descriptif>
+				     Catégorie Boeuf : Ôdélices vous propose ses meilleures recettes testées et photographiées
+
+			</Descriptif>
+      </Sous-categorie>
+      <Sous-categorie id="SC7" cat="C5" nom="Canard">
+         <Descriptif>
+				     Catégorie Canard : Ôdélices vous propose ses meilleures recettes testées et photographiées
+
+			</Descriptif>
+      </Sous-categorie>
+      <Sous-categorie id="SC8" cat="C5" nom="Lapin">
+         <Descriptif>
+				     Catégorie Lapin : Ôdélices vous propose ses meilleures recettes testées et photographiées
+
+			</Descriptif>
+      </Sous-categorie>
+      <Sous-categorie id="SC9" cat="C6" nom="Rouget">
+         <Descriptif>
+				    	Peut-être adorez-vous les petits filets de rougets autant que moi ? Ce petit poisson a la peau rouge est toujours du plus bel effet sur une table. Découvrez nos recettes !			
+
+			</Descriptif>
+      </Sous-categorie>
+      <Sous-categorie id="SC10" cat="C6" nom="Cabillaud">
+         <Descriptif>
+				    Saviez-vous que le cabillaud et la morue ne font qu'un ou presque ? Le cabillaud devient de la morue une fois qu'il a été salé et séché.Ce poisson vit dans les mers froides. Sa chair blanche, tendre et délicate ne supporte pas des temps de cuisson trop élevés. 
+Comment aimez-vous le cabillaud ? Poché, en papillotes, au curry, en tajine, tartare, en flan, en terrine ou encore en croquettes ou gratin ? 
+
+			</Descriptif>
+      </Sous-categorie>
+      <Sous-categorie id="SC11" cat="C6" nom="Saumon">
+         <Descriptif>
+				    Le saumon a une vie mouvementée : il naît en eau douce, puis se rend instinctivement dans la mer avant de retourner pondre et souvent mourir dans le fleuve de sa naissance. La majorité des saumons qui est commercialisée, provient d'élevages intensifs et industrialisés. Je ne saurais vous recommander que d'acheter du saumon bio ou labellisé. Le saumon est un poisson prisé et souvent apprécié par tous, petits et grands. Il existe de très nombreuses manières de le cuire et de l'accommoder. Vous en connaissez certainement mais êtes-vous prêts à tenter de nouvelles expériences culinaires ? Saumon burger, saumon mariné, crumble de saumon, parmentier de saumon, tartare de saumon, maki, saumon laqué, en gratin.
+
+			</Descriptif>
+      </Sous-categorie>
+      <Sous-categorie id="SC12" cat="C6" nom="Crevettes">
+         <Descriptif>
+				    La crevette a une excellente valeur nutritive. Source de protéines, peu grasse, elle est riche en minéraux et vitamines. Ce délicieux crustacé est une très bonne source de phosphore. Vous trouverez des recettes très simples et d'autres plus élaborées, des recettes traditionnelles (flambées, en brochettes) et d'autres plus exotiques et dépaysantes (maki, sushi, curry).Vous n'avez désormais plus d'excuses pour ne pas cuisiner des crevettes, des gambas ou des langoustines.
+
+			</Descriptif>
+      </Sous-categorie>
+      <Sous-categorie id="SC13" cat="C10" nom="Cakes sucrés">
+         <Descriptif>
+				    La difficulté dans un cake est de bien réussir la cuisson : le cake doit être bien moelleux à l'intérieur et croustillant à l'extérieur. Mercotte nous conseille de les cuire 1h à 160°C. découvrez ici des recettes de cakes sucrés classiques : aux fruits confits, au citron et graines de pavot, au chocolat, aux fruits rouges et des cakes plus originaux : marbré chocolat crème de marrons, aux carottes, au potimarron...élaborées, des recettes traditionnelles (flambées, en brochettes) et d'autres plus exotiques et dépaysantes (maki, sushi, curry).Vous n'avez désormais plus d'excuses pour ne pas cuisiner des crevettes, des gambas ou des langoustines.
+
+			</Descriptif>
+      </Sous-categorie>
+      <Sous-categorie id="SC14" cat="C10" nom="Gateaux">
+         <Descriptif>
+				    A la fin d'un repas, pour le goûter, pour un pique-nique, pour apporter à une fête, toutes les occasions sont bonnes pour confectionner un gâteau. Les pâtisseries "maison" sont tellement bonnes et inégalables. Du plus simple au plus sophistiqué, du plus traditionnel au plus original, de nos régions et d'ailleurs, du plus "hype" au plus discret, du plus chocolaté au plus fruité, vous trouverez tout ou presque pour satisfaire vos envies de gâteaux.
+
+			</Descriptif>
+      </Sous-categorie>
+      <Sous-categorie id="SC15" cat="C10" nom="Macarons">
+         <Descriptif>
+				    Nos recettes de macarons inratables : des parfums classiques au chocolat, vanille, pistache, caramel au beurre salé mais aussi des goûts plus originaux comme pamplemousse, violette, litchi rose. Aussi bons que ceux de Ladurée ou de Pierre Hermé !
+
+			</Descriptif>
+      </Sous-categorie>
+      <Sous-categorie id="SC16" cat="C6" nom="Coquillages">
+         <Descriptif>
+				    Noix de Saint Jacques, moules, huitres, pétoncles Sentez-vous l'air marin et iodé entrer dans votre cuisine ? Beaucoup ne cuisinent pas les coquillages par méconnaissance et crainte de ne pas savoir s'y prendre. Lancez-vous, vous verrez que ce n'est guère compliqué et que le résultat est souvent bluffant.
+
+
+			</Descriptif>
+      </Sous-categorie>
+   </Sous-categories>
+   <Auteurs>
+      <Auteur id="AUT1">
+         <Nom>TombiniMarie-Laure</Nom>
+         <Age/>
+         <Pays/>
+         <Biographie>Auteur et photographe culinaire, Marie-Laure Tombini a créé en 2002 le site Ô Délices pour partager ses recettes et idées avec vous. Elle travaille en collaboration avec Vanessa Romano, Margot Debouzy depuis 2008. </Biographie>
+         <ListeRecettes>
+            <Recette id="r4275"/>
+            <Recette id="r3289"/>
+            <Recette id="r4315"/>
+            <Recette id="r2101"/>
+            <Recette id="r1611"/>
+            <Recette id="r1915"/>
+            <Recette id="r4385"/>
+            <Recette id="r957"/>
+            <Recette id="r2678"/>
+         </ListeRecettes>
+      </Auteur>
+      <Auteur id="AUT2">
+         <Nom>Vanessa</Nom>
+         <Age/>
+         <Pays/>
+         <ListeRecettes>
+            <Recette id="r3136"/>
+         </ListeRecettes>
+      </Auteur>
+      <Auteur id="AUT3">
+         <Nom>Nadege</Nom>
+         <Age/>
+         <Pays/>
+         <ListeRecettes>
+            <Recette id="r2830"/>
+         </ListeRecettes>
+      </Auteur>
+      <Auteur id="AUT4">
+         <Nom>DescampsKarine</Nom>
+         <Age/>
+         <Pays/>
+         <Biographie>Auteur à succès, Karine Descamps a publié 2 superbes livres aux éditions Mango : Craquez pour la cuisine des ch'tis ! et Craquez pour la noix de coco ! </Biographie>
+         <ListeRecettes>
+            <Recette id="r1241"/>
+         </ListeRecettes>
+      </Auteur>
+      <Auteur id="AUT5">
+         <Nom>Clochette</Nom>
+         <Age/>
+         <Pays/>
+         <ListeRecettes>
+            <Recette id="r497"/>
+         </ListeRecettes>
+      </Auteur>
+   </Auteurs>
+   <Ingredients>
+      <Ingredient id-ingredient="t142" id-produit="P7919">
+         <Nom>Thon</Nom>
+         <ApportNutritif>riche en oméga 3</ApportNutritif>
+         <ApportÉnergétique>180 kcal pour100 g</ApportÉnergétique>
+         <Descriptif/>
+      </Ingredient>
+      <Ingredient id-ingredient="s36" id-produit="P7919">
+         <Nom>saumon</Nom>
+         <ApportNutritif>riche en oméga 3 (d' autant plus lorsqu' il est consommé cru)</ApportNutritif>
+         <ApportÉnergétique>190 kcal pour 100 g</ApportÉnergétique>
+         <Descriptif/>
+      </Ingredient>
+      <Ingredient id-ingredient="ch115" id-produit="P7927">
+         <Nom>Chocolat Noir</Nom>
+         <ApportNutritif/>
+         <ApportÉnergétique/>
+         <Descriptif/>
+      </Ingredient>
+      <Ingredient id-ingredient="a117" id-produit="P7909">
+         <Nom>Agneau</Nom>
+         <ApportNutritif/>
+         <ApportÉnergétique/>
+         <Descriptif/>
+      </Ingredient>
+      <Ingredient id-ingredient="t120" id-produit="P7914">
+         <Nom>Tomate</Nom>
+         <ApportNutritif>bêta-carotène, vitamines B9 et C, potassium, phosphore, magnésium, calcium</ApportNutritif>
+         <ApportÉnergétique>18 Kcal / 100 g</ApportÉnergétique>
+         <Descriptif/>
+         <Saison>juillet à octobre</Saison>
+      </Ingredient>
+      <Ingredient id-ingredient="e300" id-produit="P7914">
+         <Nom>Endive</Nom>
+         <ApportNutritif>vitamines C et B ainsi qu'en Potassium</ApportNutritif>
+         <ApportÉnergétique>Moins de 20 Kcal pour 100 g</ApportÉnergétique>
+         <Descriptif/>
+         <Saison>octobre à mai</Saison>
+      </Ingredient>
+      <Ingredient id-ingredient="oi16" id-produit="P7914">
+         <Nom>Oignon</Nom>
+         <ApportNutritif> Il contient beaucoup de fibres, minéraux et oligo-éléments. Pour ce qui est des vitamines, il est riche en vitamine C, B et E et provitamine A.</ApportNutritif>
+         <ApportÉnergétique>34kcal/100g.</ApportÉnergétique>
+         <Descriptif/>
+         <Saison>avril à juin</Saison>
+      </Ingredient>
+      <Ingredient id-ingredient="ech12" id-produit="P7914">
+         <Nom>Echalotte</Nom>
+         <ApportNutritif>  Très riche en vitamines C et B, en minéraux et oligo-éléments. Elle contribue efficacement à la couverture ds besoins en potassium, magnésium, fer et zinc.</ApportNutritif>
+         <ApportÉnergétique>50 kcal/100g.</ApportÉnergétique>
+         <Descriptif/>
+         <Saison>juin à octobre</Saison>
+      </Ingredient>
+      <Ingredient id-ingredient="pom06" id-produit="P7924">
+         <Nom>Pommes de terre</Nom>
+         <ApportNutritif> riche en glucides, potassium, phosphore et vitamines B, et en antyoxydants</ApportNutritif>
+         <ApportÉnergétique>120 kcal/100g.</ApportÉnergétique>
+         <Descriptif/>
+         <Saison>en janvier, les pommes de terre nouvelles, les pommes de terre se récoltent durant l'hiver pour se stocker toute l_année</Saison>
+      </Ingredient>
+      <Ingredient id-ingredient="B10" id-produit="P10274">
+         <Nom>boules de mozzarella de bufflone</Nom>
+         <ApportNutritif>100 Cal/7 g de protéines</ApportNutritif>
+         <ApportÉnergétique>calcium 580 mg pour 100g</ApportÉnergétique>
+         <Descriptif/>
+         <Saison>mai à septembre</Saison>
+      </Ingredient>
+      <Ingredient id-ingredient="S12" id-produit="P7927">
+         <Nom>sel</Nom>
+         <ApportNutritif/>
+         <ApportÉnergétique/>
+         <Descriptif/>
+      </Ingredient>
+      <Ingredient id-ingredient="SU2" id-produit="P7927">
+         <Nom>sucre</Nom>
+         <ApportNutritif/>
+         <ApportÉnergétique/>
+         <Descriptif/>
+      </Ingredient>
+      <Ingredient id-ingredient="SO7" id-produit="P7927">
+         <Nom>sauce soja</Nom>
+         <ApportNutritif/>
+         <ApportÉnergétique/>
+         <Descriptif/>
+      </Ingredient>
+      <Ingredient id-ingredient="V10" id-produit="P7927">
+         <Nom>vin blanc</Nom>
+         <ApportNutritif/>
+         <ApportÉnergétique/>
+         <Descriptif/>
+      </Ingredient>
+      <Ingredient id-ingredient="G63" id-produit="P7927">
+         <Nom>gingembre</Nom>
+         <ApportNutritif/>
+         <ApportÉnergétique/>
+         <Descriptif/>
+      </Ingredient>
+      <Ingredient id-ingredient="VI2" id-produit="P7927">
+         <Nom>vinaigre blanc</Nom>
+         <ApportNutritif/>
+         <ApportÉnergétique/>
+         <Descriptif/>
+      </Ingredient>
+      <Ingredient id-ingredient="BEU1" id-produit="P7927">
+         <Nom>beurre</Nom>
+         <ApportNutritif/>
+         <ApportÉnergétique/>
+         <Descriptif/>
+      </Ingredient>
+      <Ingredient id-ingredient="Po40" id-produit="P7927">
+         <Nom>poivre</Nom>
+         <ApportNutritif/>
+         <ApportÉnergétique/>
+         <Descriptif/>
+      </Ingredient>
+      <Ingredient id-ingredient="CH12" id-produit="P7927">
+         <Nom>chapelure</Nom>
+         <ApportNutritif/>
+         <ApportÉnergétique/>
+         <Descriptif/>
+      </Ingredient>
+      <Ingredient id-ingredient="M80" id-produit="P7927">
+         <Nom>moutarde</Nom>
+         <ApportNutritif/>
+         <ApportÉnergétique/>
+         <Descriptif/>
+      </Ingredient>
+      <Ingredient id-ingredient="C50" id-produit="P7927">
+         <Nom>crème</Nom>
+         <ApportNutritif/>
+         <ApportÉnergétique/>
+         <Descriptif/>
+      </Ingredient>
+      <Ingredient id-ingredient="Co30" id-produit="P7927">
+         <Nom>cornichons</Nom>
+         <ApportNutritif/>
+         <ApportÉnergétique/>
+         <Descriptif/>
+      </Ingredient>
+      <Ingredient id-ingredient="CA9" id-produit="P7927">
+         <Nom>cacao</Nom>
+         <ApportNutritif/>
+         <ApportÉnergétique/>
+         <Descriptif/>
+      </Ingredient>
+      <Ingredient id-ingredient="M9" id-produit="P7927">
+         <Nom>marrons</Nom>
+         <ApportNutritif/>
+         <ApportÉnergétique/>
+         <Descriptif/>
+      </Ingredient>
+      <Ingredient id-ingredient="M110" id-produit="P7904">
+         <Nom>myrtilles</Nom>
+         <ApportNutritif>57,7 kcal/100 g</ApportNutritif>
+         <ApportÉnergétique>protéines 0,91 g pour 100 g</ApportÉnergétique>
+         <Descriptif/>
+         <Saison>juin à aout</Saison>
+      </Ingredient>
+      <Ingredient id-ingredient="B200" id-produit="P7927">
+         <Nom>bicarbonate de sodium</Nom>
+         <ApportNutritif/>
+         <ApportÉnergétique/>
+         <Descriptif/>
+      </Ingredient>
+      <Ingredient id-ingredient="L300" id-produit="P7927">
+         <Nom>levure chimique</Nom>
+         <ApportNutritif/>
+         <ApportÉnergétique/>
+         <Descriptif/>
+      </Ingredient>
+      <Ingredient id-ingredient="L50" id-produit="P7927">
+         <Nom>lait</Nom>
+         <ApportNutritif/>
+         <ApportÉnergétique/>
+         <Descriptif/>
+      </Ingredient>
+      <Ingredient id-ingredient="O12" id-produit="P7927">
+         <Nom>oeuf</Nom>
+         <ApportNutritif/>
+         <ApportÉnergétique/>
+         <Descriptif/>
+      </Ingredient>
+      <Ingredient id-ingredient="H20" id-produit="P7927">
+         <Nom>huile d'olive</Nom>
+         <ApportNutritif/>
+         <ApportÉnergétique/>
+         <Descriptif/>
+      </Ingredient>
+      <Ingredient id-ingredient="F120" id-produit="P7927">
+         <Nom>farine</Nom>
+         <ApportNutritif/>
+         <ApportÉnergétique/>
+         <Descriptif/>
+      </Ingredient>
+      <Ingredient id-ingredient="F10" id-produit="P10274">
+         <Nom>fromage de brebis</Nom>
+         <ApportNutritif/>
+         <ApportÉnergétique/>
+         <Descriptif/>
+      </Ingredient>
+      <Ingredient id-ingredient="FC20" id-produit="P10274">
+         <Nom>fromage de chèvre</Nom>
+         <ApportNutritif/>
+         <ApportÉnergétique/>
+         <Descriptif/>
+      </Ingredient>
+      <Ingredient id-ingredient="CE5" id-produit="P7914">
+         <Nom>céleri</Nom>
+         <ApportNutritif/>
+         <ApportÉnergétique/>
+         <Descriptif/>
+      </Ingredient>
+      <Ingredient id-ingredient="G15" id-produit="P7914">
+         <Nom>girolles</Nom>
+         <ApportNutritif/>
+         <ApportÉnergétique/>
+         <Descriptif/>
+      </Ingredient>
+      <Ingredient id-ingredient="CI10" id-produit="P7914">
+         <Nom>ciboulette</Nom>
+         <ApportNutritif/>
+         <ApportÉnergétique/>
+         <Descriptif/>
+      </Ingredient>
+      <Ingredient id-ingredient="MO7" id-produit="P7919">
+         <Nom>moules</Nom>
+         <ApportNutritif/>
+         <ApportÉnergétique/>
+         <Descriptif/>
+      </Ingredient>
+      <Ingredient id-ingredient="ce100" id-produit="P7904">
+         <Nom>Cerises</Nom>
+         <ApportNutritif>68 kcal / 100 g.</ApportNutritif>
+         <ApportÉnergétique>béta-carotènes (anti-oxydants), vitamines B9, potassium</ApportÉnergétique>
+         <Descriptif/>
+         <Saison>mai à juillet</Saison>
+      </Ingredient>
+      <Ingredient id-ingredient="fr12" id-produit="P7904">
+         <Nom>Framboise</Nom>
+         <ApportNutritif>49 kcal / 100 g</ApportNutritif>
+         <ApportÉnergétique>vitamines B9 et C, potassium, magnésium, phosphore, calcium</ApportÉnergétique>
+         <Descriptif/>
+         <Saison>mai à août</Saison>
+      </Ingredient>
+   </Ingredients>
+   <Produits>
+      <Produit id-produit="P7904" nom="Fruits"/>
+      <Produit id-produit="P7914" nom="legumes"/>
+      <Produit id-produit="P7909" nom="viandes"/>
+      <Produit id-produit="P7919" nom="poissons"/>
+      <Produit id-produit="P7924" nom="Féculents"/>
+      <Produit id-produit="P10274" nom="Fromages"/>
+      <Produit id-produit="P7927" nom="Autres"/>
+   </Produits>
 </Recettes>

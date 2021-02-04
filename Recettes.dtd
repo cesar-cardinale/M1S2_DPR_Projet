@@ -15,8 +15,7 @@
 <!ELEMENT TempsPreparation (#PCDATA)>
 <!ELEMENT TempsCuisson (#PCDATA)>
 <!ELEMENT TempsRepos (#PCDATA)>
-<!ELEMENT Description (Etape*)>
-<!ELEMENT Etape (#PCDATA)>
+<!ELEMENT Description (#PCDATA)>
 <!ELEMENT Note (#PCDATA)>
 <!ELEMENT ListeAuteurs (Auteur)>
 <!ELEMENT Nom (#PCDATA)>
@@ -29,8 +28,7 @@
 %Produits;
 
 
-<!ATTLIST Recette id-recette ID #IMPLIED  difficulte (Très-facile|Facile|Normal|Difficile|Très-difficile) #IMPLIED sous-categorie IDREF #IMPLIED>
+<!ATTLIST Recette id-recette ID #IMPLIED  difficulte (Très-facile|Facile|Normal|Difficile|Très-difficile|Très-Facile) #IMPLIED sous-categorie IDREF #IMPLIED>
 <!ATTLIST Ingredient idref IDREF #IMPLIED quantite CDATA #IMPLIED>
-<!ATTLIST Etape num CDATA #REQUIRED>
 <!ATTLIST Auteur idref IDREF #IMPLIED>
 

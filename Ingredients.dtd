@@ -1,5 +1,5 @@
 <!ELEMENT Ingredients (Ingredient*)>
-<!ELEMENT Ingredient (Nom?,ApportNutritif?,ApportÉnergétique?,Saison?,Descriptif?)>
+<!ELEMENT Ingredient (Nom?,ApportNutritif?,ApportÉnergétique?,Descriptif?,Saison?)>
 <!ELEMENT ApportNutritif (#PCDATA)>
 <!ELEMENT ApportÉnergétique (#PCDATA)>
 <!ELEMENT Saison (#PCDATA)>

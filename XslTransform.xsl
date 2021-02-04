@@ -5,11 +5,11 @@
         <Recettes>
             <xsl:for-each select="//objet[@type = 'recette']">
                 <Recette>
-                    <xsl:attribute name="nom">
+                    <xsl:attribute name="id-recette">
                         <xls:value-of select="@id"/>
                     </xsl:attribute>
                     <xsl:attribute name="difficulte">
-                        <xls:value-of select="info[@nom = 'difficulté']/@value"/>
+                        <xls:value-of select="translate(info[@nom = 'difficulté']/@value,' ','-')"/>
                     </xsl:attribute>
                     <xsl:attribute name="sous-categorie">
                         <xls:value-of select="info[@nom = 'sous-catégorie']/@value"/>

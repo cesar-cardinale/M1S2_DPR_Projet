@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Recettes SYSTEM "Recettes.dtd">
 <Recettes>
-   <Recette nom="r2830" difficulte="Très facile" sous-categorie="SC1">
+   <Recette id-recette="r2830" difficulte="Très-facile" sous-categorie="SC1">
       <Titre>Cake à la tomate farcie</Titre>
       <Resume>Cake à la tomate farcie - Recettes de cuisine Ôdélices</Resume>
       <Photo>http://www.odelices.com/images/recettes/cake-a-la-tomate-farcie.jpg</Photo>
@@ -37,7 +38,7 @@ Saler l'intérieur de chaque tomate et déposer sur un papier absorbant, elles v
          <Auteur idref="AUT3"/>
       </ListeAuteurs>
    </Recette>
-   <Recette nom="r3136" difficulte="Très facile" sous-categorie="SC1">
+   <Recette id-recette="r3136" difficulte="Très-facile" sous-categorie="SC1">
       <Titre>Petits cakes au chèvre frais et myrtilles</Titre>
       <Resume> Petits cakes au chèvre frais et myrtilles - les meilleures recettes de cuisine d'Ôdélices</Resume>
       <Photo>http://www.odelices.com/images/recettes/petits-cakes-au-chevre-frais-et-myrtilles.jpg</Photo>
@@ -66,7 +67,7 @@ Saler l'intérieur de chaque tomate et déposer sur un papier absorbant, elles v
          <Auteur idref="AUT2"/>
       </ListeAuteurs>
    </Recette>
-   <Recette nom="r4275" difficulte="Très facile" sous-categorie="SC2">
+   <Recette id-recette="r4275" difficulte="Très-facile" sous-categorie="SC2">
       <Titre>Mozzarella panée</Titre>
       <Resume>Pour un soir de semaine, si vous voulez faire une salade express mais épatante, faites de la mozzarella panée ! C'est rapide, facile et très syma !
 </Resume>
@@ -93,7 +94,7 @@ Saler l'intérieur de chaque tomate et déposer sur un papier absorbant, elles v
          <Auteur idref="AUT1"/>
       </ListeAuteurs>
    </Recette>
-   <Recette nom="r3289" difficulte="Très facile" sous-categorie="SC2">
+   <Recette id-recette="r3289" difficulte="Très-facile" sous-categorie="SC2">
       <Titre>Oeuf cocotte aux marrons</Titre>
       <Resume/>
       <Photo>http://www.odelices.com/images/recettes/oeuf_cocotte_aux_marrons.jpg</Photo>
@@ -120,7 +121,7 @@ Saler l'intérieur de chaque tomate et déposer sur un papier absorbant, elles v
          <Auteur idref="AUT1"/>
       </ListeAuteurs>
    </Recette>
-   <Recette nom="r4315" difficulte="Très facile" sous-categorie="SC3">
+   <Recette id-recette="r4315" difficulte="Très-facile" sous-categorie="SC3">
       <Titre>Endives farcies au thon</Titre>
       <Resume>
 
@@ -151,7 +152,7 @@ Une salade « hébergée » dans une feuille d'endive ! Une idée gourmande qui 
          <Auteur idref="AUT1"/>
       </ListeAuteurs>
    </Recette>
-   <Recette nom="r1241" difficulte="Très facile" sous-categorie="SC16">
+   <Recette id-recette="r1241" difficulte="Très-facile" sous-categorie="SC16">
       <Titre>Moules et frites</Titre>
       <Resume>	
 
@@ -182,7 +183,7 @@ Recettes extraites du livre Craquez pour la cuisine des chtis !
          <Auteur idref="AUT4"/>
       </ListeAuteurs>
    </Recette>
-   <Recette nom="r2101" difficulte="Très facile" sous-categorie="SC5">
+   <Recette id-recette="r2101" difficulte="Très-facile" sous-categorie="SC5">
       <Titre>Gigot d'agneau au cumin</Titre>
       <Resume>	
 
@@ -212,7 +213,7 @@ Pour la cuisson d'un gigot d'agneau, comptez environ 15 min par livre. Il sera r
          <Auteur idref="AUT1"/>
       </ListeAuteurs>
    </Recette>
-   <Recette nom="r497" difficulte="Facile" sous-categorie="SC5">
+   <Recette id-recette="r497" difficulte="Facile" sous-categorie="SC5">
       <Titre>Gigot d'agneau à la moutarde et au thym, gousses d'ail confites</Titre>
       <Resume>	
 
@@ -250,7 +251,7 @@ Servez avec des fagots de haricots verts entourés de tranches de lard et des po
          <Auteur idref="AUT5"/>
       </ListeAuteurs>
    </Recette>
-   <Recette nom="r1611" difficulte="Très Facile" sous-categorie="SC11">
+   <Recette id-recette="r1611" difficulte="Très-Facile" sous-categorie="SC11">
       <Titre>Saumon teriyaki</Titre>
       <Resume>
 
@@ -283,7 +284,7 @@ Mon chéri adore la sauce teriyaki pour accompagner le saumon. Légèrement sucr
          <Auteur idref="AUT1"/>
       </ListeAuteurs>
    </Recette>
-   <Recette nom="r1915" difficulte="Très Facile" sous-categorie="SC11">
+   <Recette id-recette="r1915" difficulte="Très-Facile" sous-categorie="SC11">
       <Titre>Pavé de saumon aux girolles</Titre>
       <Resume>
 
@@ -320,7 +321,7 @@ Profitez d' une balade dans les bois pour ramasser quelques girolles et les cuis
          <Auteur idref="AUT1"/>
       </ListeAuteurs>
    </Recette>
-   <Recette nom="r4385" difficulte="Très Facile" sous-categorie="SC14">
+   <Recette id-recette="r4385" difficulte="Très-Facile" sous-categorie="SC14">
       <Titre>Moelleux au chocolat noir et à l'huile d'olive</Titre>
       <Resume>
 
@@ -354,7 +355,7 @@ Donnez une touche d'originalité à vos moelleux au chocolat en remplaçant le b
          <Auteur idref="AUT1"/>
       </ListeAuteurs>
    </Recette>
-   <Recette nom="r957" difficulte="Facile" sous-categorie="SC14">
+   <Recette id-recette="r957" difficulte="Facile" sous-categorie="SC14">
       <Titre>Moelleux au chocolat, coeur fondant aux framboises</Titre>
       <Resume>
 
@@ -390,7 +391,7 @@ Astuce : la réalisation de la compotée de framboises permet d'éviter de trop 
          <Auteur idref="AUT1"/>
       </ListeAuteurs>
    </Recette>
-   <Recette nom="r2678" difficulte="Très Facile" sous-categorie="SC14">
+   <Recette id-recette="r2678" difficulte="Très-Facile" sous-categorie="SC14">
       <Titre>Moelleux au chocolat au coeur cerise</Titre>
       <Resume/>
       <Photo>http://www.odelices.com/images/recettes/moelleux-au-chocolat-au-coeur-cerise.jpg</Photo>

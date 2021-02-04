@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!ELEMENT Categories (Categorie)>
+<!ELEMENT Categories (Categorie*)>
 <!ELEMENT Categorie (Descriptif?)>
 
 <!ATTLIST Categorie id-categorie ID #IMPLIED nom CDATA #IMPLIED>

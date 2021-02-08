@@ -48,7 +48,7 @@
                 <ul>
                     <xsl:for-each select="ListeIngredients/Ingredient">
                         <xsl:variable name="id-ingredient" select="@id"/>
-                        <li class="ingredient"><xsl:value-of select="@quantite"/> <xsl:value-of select="//objet[@id-ingredient = $id-ingredient]/Nom/@value"/></li>
+                        <li class="ingredient"><xsl:value-of select="@quantite"/> <xsl:value-of select="concat(' ',/Recettes/Ingredients/Ingredient[@id-ingredient = $id-ingredient]/Nom)"/></li>
                     </xsl:for-each>
                 </ul>
             </div>
@@ -71,7 +71,7 @@
                         <xsl:variable name="id-auteur" select="@idref"/>
                         <a>
                             <xsl:attribute name="href">#aute_<xsl:value-of select="$id-auteur"/></xsl:attribute>
-                            <xsl:value-of select="/Recettes/Auteurs/objet[@id = $id-auteur]/Nom/@value"/>
+                            <xsl:value-of select="/Recettes/Auteurs/Auteur[@id = $id-auteur]/Nom"></xsl:value-of>
                         </a>
                     </xsl:for-each>
                 </xsl:if>

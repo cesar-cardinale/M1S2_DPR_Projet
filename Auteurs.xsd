@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="Auteurs">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="Auteur"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Auteur">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" ref="Nom"/>
+        <xs:element minOccurs="0" ref="Age"/>
+        <xs:element minOccurs="0" ref="Pays"/>
+        <xs:element minOccurs="0" ref="Sexe"/>
+        <xs:element minOccurs="0" ref="Biographie"/>
+        <xs:element minOccurs="0" ref="ListeRecettes"/>
+      </xs:sequence>
+      <xs:attributeGroup ref="attlist.Auteur"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Age" type="xs:string"/>
+  <xs:element name="Sexe" type="xs:string"/>
+  <xs:element name="Pays" type="xs:string"/>
+  <xs:element name="Biographie" type="xs:string"/>
+  <xs:element name="ListeRecettes">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="Recette"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:attributeGroup name="attlist.Auteur">
+    <xs:attribute name="id" type="xs:ID"/>
+    <xs:attribute name="idref" type="xs:IDREF"/>
+  </xs:attributeGroup>
+  <xs:attributeGroup name="attlist.Recette">
+    <xs:attribute name="id" type="xs:IDREF"/>
+    <xs:attribute name="id-recette" type="xs:ID"/>
+    <xs:attribute name="difficulte">
+      <xs:simpleType>
+        <xs:restriction base="xs:token">
+          <xs:enumeration value="Très-facile"/>
+          <xs:enumeration value="Facile"/>
+          <xs:enumeration value="Normal"/>
+          <xs:enumeration value="Difficile"/>
+          <xs:enumeration value="Très-difficile"/>
+          <xs:enumeration value="Très-Facile"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+    <xs:attribute name="sous-categorie" type="xs:IDREF"/>
+  </xs:attributeGroup>
+</xs:schema>

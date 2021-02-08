@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="Ingredients">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="Ingredient"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Ingredient">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" ref="Nom"/>
+        <xs:element minOccurs="0" ref="ApportNutritif"/>
+        <xs:element minOccurs="0" ref="ApportÉnergétique"/>
+        <xs:element minOccurs="0" ref="Descriptif"/>
+        <xs:element minOccurs="0" ref="Saison"/>
+      </xs:sequence>
+      <xs:attributeGroup ref="attlist.Ingredient"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ApportNutritif" type="xs:string"/>
+  <xs:element name="ApportÉnergétique" type="xs:string"/>
+  <xs:element name="Saison" type="xs:string"/>
+  <xs:attributeGroup name="attlist.Ingredient">
+    <xs:attribute name="id-ingredient" type="xs:ID"/>
+    <xs:attribute name="id-produit" type="xs:IDREF"/>
+    <xs:attribute name="id" type="xs:IDREF"/>
+    <xs:attribute name="idref" type="xs:IDREF"/>
+    <xs:attribute name="quantite"/>
+  </xs:attributeGroup>
+</xs:schema>

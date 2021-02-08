@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="Recettes">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="Recette"/>
+        <xs:element ref="Categories"/>
+        <xs:element ref="Sous-categories"/>
+        <xs:element ref="Auteurs"/>
+        <xs:element ref="Ingredients"/>
+        <xs:element ref="Produits"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Categories">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="Categorie"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Categorie">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Descriptif"/>
+      </xs:sequence>
+      <xs:attribute name="id-categorie" use="required" type="xs:NCName"/>
+      <xs:attribute name="nom" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Sous-categories">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="Sous-categorie"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Sous-categorie">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Descriptif"/>
+      </xs:sequence>
+      <xs:attribute name="cat" use="required" type="xs:NCName"/>
+      <xs:attribute name="id" use="required" type="xs:NCName"/>
+      <xs:attribute name="nom" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Auteurs">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="Auteur"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Ingredients">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="Ingredient"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Produits">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="Produit"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Produit">
+    <xs:complexType>
+      <xs:attribute name="id-produit" use="required" type="xs:NCName"/>
+      <xs:attribute name="nom" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Recette">
+    <xs:complexType>
+      <xs:sequence minOccurs="0">
+        <xs:element ref="Titre"/>
+        <xs:element ref="Resume"/>
+        <xs:element ref="Photo"/>
+        <xs:element ref="DatePublication"/>
+        <xs:element ref="ListeIngredients"/>
+        <xs:element ref="NbPersonnes"/>
+        <xs:element ref="TempsPreparation"/>
+        <xs:element ref="TempsCuisson"/>
+        <xs:element ref="TempsRepos"/>
+        <xs:element ref="Description"/>
+        <xs:element ref="Note"/>
+        <xs:element ref="ListeAuteurs"/>
+      </xs:sequence>
+      <xs:attribute name="difficulte" type="xs:NCName"/>
+      <xs:attribute name="id" type="xs:NCName"/>
+      <xs:attribute name="id-recette" type="xs:NCName"/>
+      <xs:attribute name="sous-categorie" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Titre" type="xs:string"/>
+  <xs:element name="Resume" type="xs:string"/>
+  <xs:element name="Photo" type="xs:anyURI"/>
+  <xs:element name="DatePublication" type="xs:date"/>
+  <xs:element name="ListeIngredients">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="Ingredient"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="NbPersonnes" type="xs:integer"/>
+  <xs:element name="TempsPreparation" type="xs:NMTOKEN"/>
+  <xs:element name="TempsCuisson" type="xs:string"/>
+  <xs:element name="TempsRepos" type="xs:string"/>
+  <xs:element name="Description" type="xs:string"/>
+  <xs:element name="Note" type="xs:string"/>
+  <xs:element name="ListeAuteurs">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Auteur"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Descriptif" type="xs:string"/>
+  <xs:element name="Auteur">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:sequence minOccurs="0">
+          <xs:element ref="Nom"/>
+          <xs:element ref="Age"/>
+          <xs:element ref="Pays"/>
+        </xs:sequence>
+        <xs:element minOccurs="0" ref="Biographie"/>
+        <xs:element minOccurs="0" ref="ListeRecettes"/>
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:NCName"/>
+      <xs:attribute name="idref" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Age">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="Pays">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="Biographie" type="xs:string"/>
+  <xs:element name="ListeRecettes">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="Recette"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Ingredient">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:sequence minOccurs="0">
+          <xs:element ref="Nom"/>
+          <xs:element ref="ApportNutritif"/>
+          <xs:element ref="ApportÉnergétique"/>
+          <xs:element ref="Descriptif"/>
+        </xs:sequence>
+        <xs:element minOccurs="0" ref="Saison"/>
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:NCName"/>
+      <xs:attribute name="id-ingredient" type="xs:NCName"/>
+      <xs:attribute name="id-produit" type="xs:NCName"/>
+      <xs:attribute name="quantite"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ApportNutritif" type="xs:string"/>
+  <xs:element name="ApportÉnergétique" type="xs:string"/>
+  <xs:element name="Saison" type="xs:string"/>
+  <xs:element name="Nom" type="xs:string"/>
+</xs:schema>

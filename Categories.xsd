@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="Categories">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="Categorie"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Categorie">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" ref="Descriptif"/>
+      </xs:sequence>
+      <xs:attributeGroup ref="attlist.Categorie"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:attributeGroup name="attlist.Categorie">
+    <xs:attribute name="id-categorie" type="xs:ID"/>
+    <xs:attribute name="nom"/>
+  </xs:attributeGroup>
+</xs:schema>

@@ -71,6 +71,10 @@
       <xs:attribute name="id-produit" use="required" type="xs:NCName"/>
       <xs:attribute name="nom" use="required" type="xs:NCName"/>
     </xs:complexType>
+    <xs:key name="id-produit" >
+      <xs:selector xpath="Ingredients/Ingredient"/>
+      <xs:field xpath="@id-produit"/>
+    </xs:key>
   </xs:element>
   <xs:element name="Recette">
     <xs:complexType>
@@ -85,7 +89,7 @@
         <xs:element ref="TempsCuisson"/>
         <xs:element ref="TempsRepos"/>
         <xs:element ref="Description"/>
-        <xs:element ref="Note"/>
+        <xs:element ref="Note" minOccurs="0" maxOccurs="1"/>
         <xs:element ref="ListeAuteurs"/>
       </xs:sequence>
       <xs:attribute name="difficulte" type="xs:NCName"/>
@@ -93,15 +97,26 @@
       <xs:attribute name="id-recette" type="xs:NCName"/>
       <xs:attribute name="sous-categorie" type="xs:NCName"/>
     </xs:complexType>
+    <xs:key name="id-recette" >
+        <xs:selector xpath="Auteurs/Auteur/ListeRecettes/Recette"/>
+        <xs:field xpath="@id"/>
+     </xs:key>
   </xs:element>
-  <xs:element name="Titre" type="xs:string"/>
+  <xs:element name="Titre">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:minLength value="2"></xs:minLength>
+        <xs:maxLength value="70"></xs:maxLength>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
   <xs:element name="Resume" type="xs:string"/>
   <xs:element name="Photo" type="xs:anyURI"/>
   <xs:element name="DatePublication" type="xs:date"/>
   <xs:element name="ListeIngredients">
     <xs:complexType>
       <xs:sequence>
-        <xs:element maxOccurs="unbounded" ref="Ingredient"/>
+        <xs:element minOccurs= "1" maxOccurs="20" ref="Ingredient"/>
       </xs:sequence>
     </xs:complexType>
   </xs:element>
@@ -110,7 +125,7 @@
   <xs:element name="TempsCuisson" type="xs:string"/>
   <xs:element name="TempsRepos" type="xs:string"/>
   <xs:element name="Description" type="xs:string"/>
-  <xs:element name="Note" type="xs:string"/>
+  <xs:element name="Note" type="xs:string" />
   <xs:element name="ListeAuteurs">
     <xs:complexType>
       <xs:sequence>
@@ -119,20 +134,7 @@
     </xs:complexType>
   </xs:element>
   <xs:element name="Descriptif" type="xs:string"/>
-  <xs:element name="Auteur">
-    <xs:complexType>
-      <xs:sequence>
-        <xs:sequence minOccurs="0">
-          <xs:element ref="Nom"/>
-          <xs:element ref="Age"/>
-          <xs:element ref="Pays"/>
-        </xs:sequence>
-        <xs:element minOccurs="0" ref="Biographie"/>
-        <xs:element minOccurs="0" ref="ListeRecettes"/>
-      </xs:sequence>
-      <xs:attribute name="id" type="xs:NCName"/>
-      <xs:attribute name="idref" type="xs:NCName"/>
-    </xs:complexType>
+  <xs:element name="Auteur" type="PersonneType">
   </xs:element>
   <xs:element name="Age">
     <xs:complexType/>
@@ -164,9 +166,35 @@
       <xs:attribute name="id-produit" type="xs:NCName"/>
       <xs:attribute name="quantite"/>
     </xs:complexType>
+    <xs:key name="id-ingredient" >
+      <xs:selector xpath="Recette/ListeIngredients/Ingredient"/>
+      <xs:field xpath="@id"/>
+    </xs:key>
   </xs:element>
   <xs:element name="ApportNutritif" type="xs:string"/>
   <xs:element name="ApportÉnergétique" type="xs:string"/>
   <xs:element name="Saison" type="xs:string"/>
   <xs:element name="Nom" type="xs:string"/>
+  <xs:complexType name="AuteurType">
+    <xs:sequence>
+      <xs:sequence minOccurs="0">
+        <xs:element ref="Nom"/>
+        <xs:element ref="Age"/>
+        <xs:element ref="Pays"/>
+      </xs:sequence>
+      <xs:element minOccurs="0" ref="Biographie"/>
+      <xs:element minOccurs="0" ref="ListeRecettes"/>
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:NCName"/>
+    <xs:attribute name="idref" type="xs:NCName"/>
+  </xs:complexType>
+  <xs:complexType name="PersonneType">
+    <xs:complexContent>
+      <xs:extension base="AuteurType">
+        <xs:sequence>
+          <xs:element name="titre" type="xs:string" minOccurs="0"/>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
 </xs:schema>

@@ -42,6 +42,13 @@ h1{
     color: #363737;
     font-style: italic;
 }
+
+#ingredients ul li.main{
+    padding-top: 60px;
+}
+#ingredients ul li.second{
+    margin-left: 20px;
+}
 /*
                             <xsl:variable name="nomAuteur" select="@value"/>
                             <xsl:value-of select="//objet[@id = $nomAuteur]/info[@nom = 'nom']/@value"/>

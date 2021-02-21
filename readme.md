@@ -1,6 +1,6 @@
 # Projet DPR M1 Informatique
-***
-**Projet réalisé par Benjamin BEN EST et César CARDINALE (DRP1).**
+
+**Projet réalisé par Benjamin BEN ESTI et César CARDINALE (DRP1).**
 
 * Le fichier XSLTransform.xsl permet de transformer donnees-recettes.xml en Recettes.xml selon Recettes.dtd.
 

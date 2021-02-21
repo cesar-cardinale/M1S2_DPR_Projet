@@ -1,4 +1,4 @@
-# Projet DPR M1 Informatique
+# Projet DPR S1 M1 Informatique 2021
 
 **Projet réalisé par Benjamin BEN ESTI et César CARDINALE (DRP1).**
 
@@ -14,7 +14,7 @@ Recettes.html :  Fichier permettant le recensement de toutes les recettes triée
 Recettes-cat.html :  Fichier permettant le recensement de toutes les recettes triées par catégories et sous-catégories.
 ```
 
-* Le fichier XQUERYTransform permet de produire un fichier XML (XQUERY.xml) qui liste les auteurs  avec, pour chacun, les recettes qu’il a proposées et les sous-catégories dans lesquelles les recettes apparaissent, triés par ordre alphabétique et ordre de date de publication.
+* Le fichier XQUERYTransform.xquery permet de produire un fichier XML (XQUERY.xml) qui liste les auteurs  avec, pour chacun, les recettes qu’il a proposées et les sous-catégories dans lesquelles les recettes apparaissent, triés par ordre alphabétique et ordre de date de publication.
 
 - * Nous avons donc utiliser une méthode XPATH 2.0 afin de pouvoir séléctionner uniquement la sous-catégories qui correspond à la recette, ici le `eq` permet de vérifier l'égalité.
 ```

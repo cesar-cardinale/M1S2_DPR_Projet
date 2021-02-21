@@ -27,6 +27,14 @@
       <xs:attribute name="id-categorie" use="required" type="xs:NCName"/>
       <xs:attribute name="nom" use="required"/>
     </xs:complexType>
+    <xs:key name="cat" >
+      <xs:selector xpath="Categories/Categorie"/>
+      <xs:field xpath="@id-categorie"/>
+    </xs:key>
+    <xs:keyref refer="cat" name="ref-cat">
+      <xs:selector xpath="Recettes/Sous-categories/Sous-categorie" />
+      <xs:field xpath="@cat" />
+    </xs:keyref>
   </xs:element>
   <xs:element name="Sous-categories">
     <xs:complexType>
@@ -44,6 +52,14 @@
       <xs:attribute name="id" use="required" type="xs:NCName"/>
       <xs:attribute name="nom" use="required"/>
     </xs:complexType>
+    <xs:key name="sous-categorie" >
+      <xs:selector xpath="Sous-categories/Sous-categorie"/>
+      <xs:field xpath="@id"/>
+    </xs:key>
+    <xs:keyref refer="sous-categorie" name="ref-sous-cat">
+      <xs:selector xpath="Recettes/Recette" />
+      <xs:field xpath="@sous-categorie" />
+    </xs:keyref>
   </xs:element>
   <xs:element name="Auteurs">
     <xs:complexType>
@@ -72,9 +88,13 @@
       <xs:attribute name="nom" use="required" type="xs:NCName"/>
     </xs:complexType>
     <xs:key name="id-produit" >
-      <xs:selector xpath="Ingredients/Ingredient"/>
+      <xs:selector xpath="Recettes/Produits/Produit"/>
       <xs:field xpath="@id-produit"/>
     </xs:key>
+    <xs:keyref refer="id-produit" name="ref-produit">
+      <xs:selector xpath="Recettes/Ingredients/Ingredient" />
+      <xs:field xpath="@id-produit" />
+    </xs:keyref>
   </xs:element>
   <xs:element name="Recette">
     <xs:complexType>
@@ -93,14 +113,17 @@
         <xs:element ref="ListeAuteurs"/>
       </xs:sequence>
       <xs:attribute name="difficulte" type="xs:NCName"/>
-      <xs:attribute name="id" type="xs:NCName"/>
       <xs:attribute name="id-recette" type="xs:NCName"/>
       <xs:attribute name="sous-categorie" type="xs:NCName"/>
     </xs:complexType>
     <xs:key name="id-recette" >
-        <xs:selector xpath="Auteurs/Auteur/ListeRecettes/Recette"/>
-        <xs:field xpath="@id"/>
+        <xs:selector xpath="Recettes/Recette"/>
+        <xs:field xpath="@id-recette"/>
      </xs:key>
+    <xs:keyref refer="id-recette" name="ref-recette">
+      <xs:selector xpath="Recettes/Auteurs/Auteur/ListeRecettes/Recette" />
+      <xs:field xpath="@id" />
+    </xs:keyref>
   </xs:element>
   <xs:element name="Titre">
     <xs:simpleType>
@@ -170,6 +193,10 @@
       <xs:selector xpath="Recette/ListeIngredients/Ingredient"/>
       <xs:field xpath="@id"/>
     </xs:key>
+    <xs:keyref refer="id-ingredient" name="ref-ingredient">
+      <xs:selector xpath="Recettes/Recette/ListeIngredients/Ingredient" />
+      <xs:field xpath="@id" />
+    </xs:keyref>
   </xs:element>
   <xs:element name="ApportNutritif" type="xs:string"/>
   <xs:element name="ApportÉnergétique" type="xs:string"/>

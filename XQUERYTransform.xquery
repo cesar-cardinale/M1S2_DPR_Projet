@@ -7,7 +7,7 @@ element Auteurs {
     order by $auteur/Nom ascending
     let $recettes_call := $auteur/ListeRecettes
     return 
-        <Auteur id="{$auteur/@id}"> 
+        <Auteur id="{$auteur/@id}">
             {$auteur/(* except ListeRecettes)}
             <ListeRecettes>
                 {

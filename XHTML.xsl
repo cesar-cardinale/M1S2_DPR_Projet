@@ -7,6 +7,7 @@
         <xsl:call-template name="auteurs" />
         <xsl:call-template name="ingredients" />
         <xsl:call-template name="produits" />
+        <xsl:call-template name="recettes-categories" />
     </xsl:template>
     
     <xsl:template name="index">
@@ -30,91 +31,95 @@
                 <body>
                     <xsl:call-template name="menu" />
                     <div class="container">
-                        <div class="row receipt" id="recettes">
+                        <div class="row recipe" id="recettes">
                             <h1 class="text-center">Toutes nos recettes</h1>
                             <xsl:for-each select="/Recettes/Recette">
                                 <xsl:sort select="DatePublication" data-type="text" order="descending"/>
-                                <xsl:variable name="id-cateogry" select="@sous-categorie"/>
-                                <div class="row justify-content-center">
-                                    <div class="col-10 mb-3">
-                                        <xsl:attribute name="id">rece_<xsl:value-of select="@id-recette"/></xsl:attribute>
-                                        <div class="img">
-                                            <xsl:attribute name="style">background-image: url('<xsl:value-of select="Photo"/>')</xsl:attribute>
-                                            <h2><xsl:value-of select="Titre"/></h2>
-                                        </div>
-                                        <div class="row justify-content-center">
-                                            <div>
-                                            <xsl:for-each select="/Recettes/Sous-categories/Sous-categorie">
-                                                <xsl:if test="@id = $id-cateogry">
-                                                    <xsl:variable name="id-cateogry-parent" select="@cat"/>
-                                                    <xsl:for-each select="/Recettes/Categories/Categorie">
-                                                        <xsl:if test="@id-categorie = $id-cateogry-parent">
-                                                            <a>
-                                                                <xsl:attribute name="href">Categories.html#cat_<xsl:value-of select="$id-cateogry-parent"/></xsl:attribute>
-                                                                <xsl:value-of select="@nom"/>
-                                                            </a> > 
-                                                        </xsl:if>
-                                                    </xsl:for-each>
-                                                    <a>
-                                                        <xsl:attribute name="href">Categories.html#cat_<xsl:value-of select="$id-cateogry"/></xsl:attribute>
-                                                        <xsl:value-of select="@nom"/>
-                                                    </a>
-                                                </xsl:if>
-                                            </xsl:for-each>
-                                            </div>
-                                        </div>
-                                        <div class="row data">
-                                            <div class="col-6">Pour <xsl:value-of select="NbPersonnes"/> personne<xsl:if test="NbPersonnes &gt; 1">s</xsl:if></div>
-                                            <xsl:if test="number(Note) > 0"><div class="col-6"><xsl:value-of select="Note"/> ★</div></xsl:if>
-                                        </div>
-                                        <xsl:if test="string-length(Resume)>0"><div class="resume"><xsl:value-of select="Resume"/></div></xsl:if>
-                                        <div class="ingredients">
-                                            <span>Ingrédients :</span>
-                                            <ul>
-                                                <xsl:for-each select="ListeIngredients/Ingredient">
-                                                    <xsl:variable name="id-ingredient" select="@id"/>
-                                                    <li class="ingredient">
-                                                        <xsl:value-of select="@quantite"/> 
-                                                        <a>
-                                                            <xsl:attribute name="href">./Ingredients.html#ingr_<xsl:value-of select="$id-ingredient"/></xsl:attribute>
-                                                            <xsl:value-of select="concat(' ',/Recettes/Ingredients/Ingredient[@id-ingredient = $id-ingredient]/Nom)"/>
-                                                        </a>
-                                                    </li>
-                                                </xsl:for-each>
-                                            </ul>
-                                        </div>
-                                        <div class="time">
-                                            <xsl:if test="number(translate(TempsPreparation, 'min', '')) > 0"><div>Temps de préparation : <xsl:value-of select="TempsPreparation" /></div></xsl:if>
-                                            <xsl:if test="number(translate(TempsCuisson, 'min', '')) > 0"><div>Temps de cuisson : <xsl:value-of select="TempsCuisson" /></div></xsl:if>
-                                            <xsl:if test="number(translate(TempsRepos, 'min', '')) > 0"><div>Temps de repos : <xsl:value-of select="TempsRepos" /></div></xsl:if>
-                                        </div>
-                                        <div class="steps">
-                                            <xsl:call-template name="tokenize">
-                                                <xsl:with-param name="text" select="Description"/>
-                                            </xsl:call-template>
-                                            <xsl:value-of select="Description" />
-                                        </div>
-                                        <div class="date">
-                                            Publié le <xsl:value-of select="DatePublication"/>
-                                            <xsl:if test="ListeAuteurs/Auteur">
-                                                par
-                                                <xsl:for-each select="ListeAuteurs/Auteur">
-                                                    <xsl:variable name="id-auteur" select="@idref"/>
-                                                    <a>
-                                                        <xsl:attribute name="href">./Auteurs.html#aute_<xsl:value-of select="$id-auteur"/></xsl:attribute>
-                                                        <xsl:value-of select="/Recettes/Auteurs/Auteur[@id = $id-auteur]/Nom"></xsl:value-of>
-                                                    </a>
-                                                </xsl:for-each>
-                                            </xsl:if>
-                                        </div>
-                                    </div>
-                                </div>
+                                <xsl:call-template name="recette" />
                             </xsl:for-each>
                         </div>
                     </div>
                 </body>
             </html>
         </xsl:result-document>
+    </xsl:template>
+    
+    <xsl:template name="recette" match="/Recettes/Recette">
+        <xsl:variable name="id-cateogry" select="@sous-categorie"/>
+        <div class="row justify-content-center recipe">
+            <div class="col-10 mb-3">
+                <xsl:attribute name="id">rece_<xsl:value-of select="@id-recette"/></xsl:attribute>
+                <div class="img">
+                    <xsl:attribute name="style">background-image: url('<xsl:value-of select="Photo"/>')</xsl:attribute>
+                    <h2><xsl:value-of select="Titre"/></h2>
+                </div>
+                <div class="row justify-content-center">
+                    <div>
+                        <xsl:for-each select="/Recettes/Sous-categories/Sous-categorie">
+                            <xsl:if test="@id = $id-cateogry">
+                                <xsl:variable name="id-cateogry-parent" select="@cat"/>
+                                <xsl:for-each select="/Recettes/Categories/Categorie">
+                                    <xsl:if test="@id-categorie = $id-cateogry-parent">
+                                        <a>
+                                            <xsl:attribute name="href">Categories.html#cat_<xsl:value-of select="$id-cateogry-parent"/></xsl:attribute>
+                                            <xsl:value-of select="@nom"/>
+                                        </a> > 
+                                    </xsl:if>
+                                </xsl:for-each>
+                                <a>
+                                    <xsl:attribute name="href">Categories.html#cat_<xsl:value-of select="$id-cateogry"/></xsl:attribute>
+                                    <xsl:value-of select="@nom"/>
+                                </a>
+                            </xsl:if>
+                        </xsl:for-each>
+                    </div>
+                </div>
+                <div class="row data">
+                    <div class="col-6">Pour <xsl:value-of select="NbPersonnes"/> personne<xsl:if test="NbPersonnes &gt; 1">s</xsl:if></div>
+                    <xsl:if test="number(Note) > 0"><div class="col-6"><xsl:value-of select="Note"/> ★</div></xsl:if>
+                </div>
+                <xsl:if test="string-length(Resume)>0"><div class="resume"><xsl:value-of select="Resume"/></div></xsl:if>
+                <div class="ingredients">
+                    <span>Ingrédients :</span>
+                    <ul>
+                        <xsl:for-each select="ListeIngredients/Ingredient">
+                            <xsl:variable name="id-ingredient" select="@id"/>
+                            <li class="ingredient">
+                                <xsl:value-of select="@quantite"/> 
+                                <a>
+                                    <xsl:attribute name="href">./Ingredients.html#ingr_<xsl:value-of select="$id-ingredient"/></xsl:attribute>
+                                    <xsl:value-of select="concat(' ',/Recettes/Ingredients/Ingredient[@id-ingredient = $id-ingredient]/Nom)"/>
+                                </a>
+                            </li>
+                        </xsl:for-each>
+                    </ul>
+                </div>
+                <div class="time">
+                    <xsl:if test="number(translate(TempsPreparation, 'min', '')) > 0"><div>Temps de préparation : <xsl:value-of select="TempsPreparation" /></div></xsl:if>
+                    <xsl:if test="number(translate(TempsCuisson, 'min', '')) > 0"><div>Temps de cuisson : <xsl:value-of select="TempsCuisson" /></div></xsl:if>
+                    <xsl:if test="number(translate(TempsRepos, 'min', '')) > 0"><div>Temps de repos : <xsl:value-of select="TempsRepos" /></div></xsl:if>
+                </div>
+                <div class="steps">
+                    <xsl:call-template name="tokenize">
+                        <xsl:with-param name="text" select="Description"/>
+                    </xsl:call-template>
+                    <xsl:value-of select="Description" />
+                </div>
+                <div class="date">
+                    Publié le <xsl:value-of select="DatePublication"/>
+                    <xsl:if test="ListeAuteurs/Auteur">
+                        par
+                        <xsl:for-each select="ListeAuteurs/Auteur">
+                            <xsl:variable name="id-auteur" select="@idref"/>
+                            <a>
+                                <xsl:attribute name="href">./Auteurs.html#aute_<xsl:value-of select="$id-auteur"/></xsl:attribute>
+                                <xsl:value-of select="/Recettes/Auteurs/Auteur[@id = $id-auteur]/Nom"></xsl:value-of>
+                            </a>
+                        </xsl:for-each>
+                    </xsl:if>
+                </div>
+            </div>
+        </div>
     </xsl:template>
     
     <xsl:template name="categories" match="/Recettes/Categories">
@@ -133,7 +138,7 @@
                                     <div class="card-body">
                                         <h4 class="card-title">
                                             <a>
-                                                <xsl:attribute name="href">Recettes.html#cat_<xsl:value-of select="$id-category"/></xsl:attribute>
+                                                <xsl:attribute name="href">Recettes-cat.html#cat_<xsl:value-of select="$id-category"/></xsl:attribute>
                                                 <xsl:value-of select="@nom" />
                                             </a>
                                         </h4>
@@ -144,7 +149,7 @@
                                                     <li class="list-group-item">
                                                         <xsl:attribute name="id">cat_<xsl:value-of select="@id"/></xsl:attribute>
                                                         <a>
-                                                            <xsl:attribute name="href">Recettes.html#cat_<xsl:value-of select="@id"/></xsl:attribute>
+                                                            <xsl:attribute name="href">Recettes-cat.html#cat_<xsl:value-of select="@id"/></xsl:attribute>
                                                             <h5><xsl:value-of select="@nom" /></h5>
                                                         </a>
                                                         <div><xsl:value-of select="Descriptif" /></div>
@@ -270,6 +275,43 @@
                                     </div>
                                 </div>
                             </div>
+                        </xsl:for-each>
+                    </div>
+                </body>
+            </html>
+        </xsl:result-document>
+    </xsl:template>
+    
+    
+    <xsl:template name="recettes-categories" match="/Recettes/Categories">
+        <xsl:result-document method="html" href="Recettes-cat.html">
+            <html>
+                <xsl:call-template name="header" />
+                <body>
+                    <xsl:call-template name="menu" />
+                    <div class="row justify-content-center receipes-categories" id="categories">
+                        <h1 class="text-center">Toutes les recettes par catégories</h1>
+                        <xsl:for-each select="/Recettes/Categories/Categorie">
+                            <xsl:variable name="id-category" select="@id-categorie"/>
+                            <div class="col-sm-10 mb-3">
+                                <xsl:attribute name="id">cat_<xsl:value-of select="$id-category"/></xsl:attribute>
+                                <h4><xsl:value-of select="@nom" /></h4>
+                            </div>
+                                <xsl:for-each select="/Recettes/Sous-categories/Sous-categorie">
+                                    <xsl:variable name="id-subcategory" select="@id" />
+                                    <xsl:if test="$id-category = @cat" >
+                                        <div class="col-sm-10 mb-3">
+                                        <xsl:attribute name="id">cat_<xsl:value-of select="@id"/></xsl:attribute>
+                                        <h5><xsl:value-of select="@nom" /></h5>
+                                        </div>
+                                        <xsl:for-each select="/Recettes/Recette">
+                                            <xsl:if test="$id-subcategory = @sous-categorie" >
+                                                <xsl:call-template name="recette" />
+                                            </xsl:if>
+                                        </xsl:for-each>
+                                    </xsl:if>
+                                </xsl:for-each>
+                            
                         </xsl:for-each>
                     </div>
                 </body>

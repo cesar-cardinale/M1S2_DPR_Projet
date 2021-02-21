@@ -4,40 +4,40 @@ h1{
 
 
 
-.receipt{
+.recipe{
     padding: 5vh 0;
 }
-.receipt .img{
+.recipe .img{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 15vh 0;
     text-align: center;
 }
-.receipt .img h2{
+.recipe .img h2{
     color: #FFFFFF;
 }
-.receipt .row.data{
+.recipe .row.data{
     margin: 10px 0;
     font-weight: bold;
 }
-.receipt .resume{
+.recipe .resume{
     border: 1px solid rgba(0,0,0,0.1);
     border-radius: 10px;
     padding: 8px 16px;
     font-size: 15px;
     color: #575656;
 }
-.receipt .ingredients{
+.recipe .ingredients{
     margin: 10px 0;
 }
-.receipt .ingredients .ingredient{
+.recipe .ingredients .ingredient{
 }
-.receipt .steps{
+.recipe .steps{
     margin: 10px 0;
     text-align: justify;
 }
-.receipt .date{
+.recipe .date{
     text-align: right;
     color: #363737;
     font-style: italic;
@@ -48,6 +48,20 @@ h1{
 }
 #ingredients ul li.second{
     margin-left: 20px;
+}
+
+.receipes-categories h4{
+    text-align: center;
+    font-size: 34px;
+    text-decoration: underline;
+    margin-top: 60px;
+    text-transform: capitalize;
+}
+.receipes-categories h5{
+    text-align: center;
+    font-size: 24px;
+    margin-top: 60px;
+    text-transform: capitalize;
 }
 /*
                             <xsl:variable name="nomAuteur" select="@value"/>

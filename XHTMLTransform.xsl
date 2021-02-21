@@ -227,7 +227,7 @@
                                 <xsl:for-each select="/Recettes/Ingredients/Ingredient">
                                     <xsl:if test="$id-produit = @id-produit" >
                                         <a>
-                                            <xsl:attribute name="href">./ingredients.html#ingr_<xsl:value-of select="@id-ingredient"/></xsl:attribute>
+                                            <xsl:attribute name="href">./Ingredients.html#ingr_<xsl:value-of select="@id-ingredient"/></xsl:attribute>
                                             <h4><xsl:value-of select="Nom" /></h4>
                                         </a>
                                     </xsl:if>
@@ -264,7 +264,7 @@
                                                     <xsl:if test="$id-recette = @id-recette" >
                                                         <li class="list-group-item">
                                                             <a>
-                                                                <xsl:attribute name="href">./recipes.html#rece_<xsl:value-of select="@id-recette"/></xsl:attribute>
+                                                                <xsl:attribute name="href">./Recettes.html#rece_<xsl:value-of select="@id-recette"/></xsl:attribute>
                                                                 <h6><xsl:value-of select="Titre" /></h6>
                                                             </a>
                                                         </li>
